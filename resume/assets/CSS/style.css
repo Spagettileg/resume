@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*------------Colours----------*/
+
+.bg-color-name-title {
+    background-color: #676767; /*Charcoal background*/
+}
+
+.bg-color-personal-info {
+    background-color: #f4f4f4; /*pale grey background colour*/
+}
+
+.bg-color-three-reasons {
+    background-color: #ffffff; /*'About Me' set to white background colour*/
+}
+
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
+.bg-color-Work-History {
+    background-color: #205e6b; /*Dark Green*/
+}
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
+.ul-menu-color-Home {
+    background-color: #765ec2; /*Purple*/
+}
+
+.ul-menu-color-Resume {
+    background-color: #205e6b; /*Dark Green*/
+}
+
+.ul-menu-color-Contact {
+    background-color: #2794a9; /*Teal*/
+}
+
+.ul-menu-color-Interests {
+    background-color: #a96e5b; /*Cappucino Brown*/
+}
+
+.ul-menu-color-GitHub {
+    background-color: #50394c; /*Dark Purple*/
+}
+
+.ul-menu-color-DownloadCV {
+    background-color: #878f99; /*Medium Grey*/
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
+
+/*------------Special Paddings/Margins/Text----------*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    color: #fafafa; /*off-white*/
+}
+
+.inline-block {
+    display: inline-block; /*Allows nice spacing of the content across the footer*/
+}
+
+
+.row-table {
+    display: table; /*Columns will remain of equal height, regardless of content*/
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/*------------Heading----------*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/Paul.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #676767; /*Dark Grey*/
+    min-height: 360px;
+    transition: all .5s ease-in-out; /*animation appears on different browsers*/
+    -o-transition: all .5s ease-in-out; /*as above*/
+    -moz-transition: all .5s ease-in-out; /*as above*/
+    -webkit-transition: all .5s ease-in-out; /*as above*/
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #ffffff; /*white*/
+}
+
+.title {
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px; /*create extra space from name*/
+    margin-bottom: 90px;
+    color: #ffffff; /*white*/
+}
+
+#nav {
+    margin: 0; /*The 4 elements now matches the shape of the title
+    with no overlap */
+}
+
+#nav li {
+    padding: 0; /*Targets zero padding to all li Class commands in html file*/
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+/*The anchor 'a' below creates a clickable area for the user*/
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff; /*white*/
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block; /*Occupy its parent container*/
+    color: #fafafa; /*off-white*/
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block; /*Occupy its parent container*/
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px; /*Change from default font size*/
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*------------Hover.css----------*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0,0,0,0.2); /*Background colour change from blue to faint grey*/
+    height: 120px;
+}
+
+/*------------Footer-------------*/
+
+footer {
+    background-color: #525252; /*dark grey*/
+    color: #fafafa; /*off-white*/
+    min-height: 360px;
+}
+
+footer .cv-pdf i {
+    color: #fafafa; /*off-white*/
+    text-align: center;
+    font-size: 18px; /*increase font size from default size*/
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #2794A9; /*Teal*/
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out; /*Windows*/
+    -webkit-transition: all 0.35s ease-in-out; /*Apple*/
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%; /*Enables creation of circle where width & height of same value*/
+    font-size: 13px; /*Enables icon to sit within border*/  
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa; /*off-white*/
+    background: #8f8f8f; /*pale grey*/
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out; /*Windows*/
+    -webkit-transition: all 0.35s ease-in-out; /*Apple*/
+}
+
+.social-links li a i:hover {
+    background: #2794A9; /*Teal*/
+}
+
+#footer-details {
+    margin: 50px;
+}
+
+/*------------Three Reasons-------------*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #765EC2; /*Same colour as menu 'Home' button*/
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/*------------Personal Info-------------*/
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block; /*occupy entirety of horizontal space*/
+    clear: both; /*no items can appear either side of the item*/
+    
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+   margin: 0;
+    
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 18px; /*set to 60% of width. Width + margin = 90%*/
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+    
+}
+
+.personal-info-item .value {
+    display: inline-block; /*Allows for the key (Name, etc) to sit to the left*/
+    position: relative;
+    width: 60%;
+}
+
+/*------------Skills-------------*/
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px; /*text moves to left*/
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa; /*off-white*/
+    background-color: rgba(25,25,25,0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/*------------Work History-------------*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute; /*fix the date just above the employers location*/
+    left: 2.5em; /*further refines positioning of the dates*/
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px; /*Negative value allows disc to sit out on left hand border*/
+    border-radius: 12px; /*creates a disc shape, feeding from width & height 12px*/
+    content: ""; /*No content other then the border itself*/
+    background: #fafafa; /*off-white*/
+}
+
+.history-heading {
+    color: #fafafa; /*off-white*/
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+/*------------Contact-------------*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%; /*width reduced to 70% as name field not required at 100%*/
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #205e6b; /*Dark Green*/
+    color: #fafafa; /*off-white*/
+} 
+
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
+
+/*------------Media Queries-------------*/
+
+@media (min-width: 992px) {
+    .section-column {
+        padding:0 30px 30px; /*This styling designed to be used repeatedly > 'About Me, etc'*/ 
+        float: none;
+        display: table-cell;
+}
+
+.center-form {
+    padding-top: 30px; /*Center-Form code adjusted for Mobile view*/
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%; /*width reduced from 70% to 50%
+    as name field not required at 100%*/
+}
+}
