@@ -6,7 +6,7 @@ Welcome!
 
 [Direct link to GitHub] (https://github.com/Spagettileg/resume)
 
-[Direct link to live project] (https://spagettileg.github.io/resume/.)
+[Direct link to live project] (https://spagettileg.github.io/resume/resume/index.html)
 
 ***
 
