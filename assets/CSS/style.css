@@ -6,40 +6,25 @@
     background-color: #676767; /*Charcoal background*/
 }
 
-.bg-color-personal-info {
+.bg-color-personal-info,
+.bg-color-conferences {
     background-color: #f4f4f4; /*pale grey background colour*/
 }
 
-.bg-color-three-reasons {
+.bg-color-three-reasons,
+.bg-color-skills,
+.bg-color-contact,
+.bg-color-groups {
     background-color: #ffffff; /*'About Me' set to white background colour*/
 }
 
-.bg-color-skills {
-    background-color: #ffffff;
-}
-
-.bg-color-Work-History {
+.bg-color-Work-History,
+.ul-menu-color-Resume {
     background-color: #205e6b; /*Dark Green*/
-}
-
-.bg-color-contact {
-    background-color: #ffffff;
-}
-
-.bg-color-conferences {
-    background-color: #f4f4f4;
-}
-
-.bg-color-groups {
-    background-color: #ffffff;
 }
 
 .ul-menu-color-Home {
     background-color: #765ec2; /*Purple*/
-}
-
-.ul-menu-color-Resume {
-    background-color: #205e6b; /*Dark Green*/
 }
 
 .ul-menu-color-Contact {
@@ -88,7 +73,6 @@ h4 {
     display: inline-block; /*Allows nice spacing of the content across the footer*/
 }
 
-
 .row-table {
     display: table; /*Columns will remain of equal height, regardless of content*/
 }
@@ -100,9 +84,6 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
-
-
-
 
 /*------------Heading----------*/
 
@@ -384,7 +365,8 @@ button[type="submit"]{
     color: #fafafa; /*off-white*/
 } 
 
-/*--------------------------------------------Map*/
+/*---------------Map--------------------*/
+
 div#map {
     min-height: 360px;
 }
