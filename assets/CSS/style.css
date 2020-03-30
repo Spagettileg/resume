@@ -280,24 +280,25 @@ footer .cv-pdf i:hover {
 
 .progress {
     position: relative;
-    height: 1.5625rem;
+    height: 25px;
 }
 
 .progress-type {
     position: absolute;
     left: 0px; /*text moves to left*/
     font-weight: 400;
-    padding: 0.1875rem 1.875rem 0.125rem 0.625rem;
+    padding: 3px 30px 2px 10px;
     color: #fafafa; /*off-white*/
     background-color: rgba(25,25,25,0.2);
 }
 
 .progress-section {
-    margin: 2.5rem 1.25rem;
+    margin: 40px 20px;
 }
 
 .fa-tv,
-.fa-cogs { /* Fontawesome 5 icons resizing in 'My Skill's section */
+.fa-cogs,
+.fa-database { /* Fontawesome 5 icons resizing in 'My Skill's section */
     font-size: 1.5rem;
 }
 
