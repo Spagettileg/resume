@@ -184,7 +184,6 @@ header {
 footer {
     background-color: #525252; /*dark grey*/
     color: #fafafa; /*off-white*/
-    min-height: 360px;
 }
 
 footer .cv-pdf i {
