@@ -141,6 +141,7 @@ header {
 
 .menuitem {
     height: 120px;
+    width: 120px;
     text-align: center;
     padding: 0;
 }
