@@ -77,6 +77,11 @@ h4 {
     display: table; /*Columns will remain of equal height, regardless of content*/
 }
 
+ul {
+  /* removes bullet points from unordered list */
+  list-style-type: none;
+}
+
 .history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
