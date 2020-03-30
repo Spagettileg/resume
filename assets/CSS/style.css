@@ -299,6 +299,11 @@ footer .cv-pdf i:hover {
     margin: 40px 20px;
 }
 
+.fa-tv,
+.fa-cogs { /* Fontawesome 5 icons resizing in 'My Skill's section */
+    font-size: 1.5rem;
+}
+
 /*------------Work History-------------*/
 
 .timeline-item {
