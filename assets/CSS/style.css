@@ -430,6 +430,24 @@ div#map {
 
 /*------------Media Queries-------------*/
 
+@media (min-width: 375px) and (orientation: landscape) {
+    .skills { /* Mobile view in landscape mode */
+        padding-left: 1.35rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .skills { /* Tablet view */
+        padding-left: 1.7rem;
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+    .skills { /* Tablet view in portrait mode */
+        padding-left: 4rem;
+    }
+}
+
 @media (min-width: 992px) {
 .center-form {
     padding-top: 1.875rem; /*Center-Form code adjusted for Mobile view*/
@@ -438,4 +456,16 @@ div#map {
     max-width: 50%; /*width reduced from 70% to 50%
     as name field not required at 100%*/
 }
+}
+
+@media (min-width: 1200px) {
+    .skills { /* Desktop view */
+        padding-left: 1.25rem;
+    }
+}
+
+@media (min-width: 700px) and (orientation: portrait) {
+    .skills { /* Desktop view in portrait mode */
+        padding-left: 1.75rem;
+    }
 }
