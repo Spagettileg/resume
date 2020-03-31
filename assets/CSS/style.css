@@ -407,6 +407,7 @@ footer .cv-pdf i:hover {
     font-weight: 300;
     margin-top: 1.5625rem;
     margin-bottom: 1.25rem;
+    text-align: center;
 }
 
 .center-form {
@@ -449,7 +450,7 @@ div#map {
 }
 
 @media (min-width: 992px) {
-.center-form {
+.center-form { /* Contact form for users to submit new project proposals */ 
     padding-top: 1.875rem; /*Center-Form code adjusted for Mobile view*/
     min-height: 15rem;
     margin: 0 auto;
