@@ -346,6 +346,8 @@ footer .cv-pdf i:hover {
 .flip-card-back {
   background-color: dodgerblue;
   color: white;
+  padding-top: 2.1rem;
+  text-align: center;    
   transform: rotateY(180deg);
 }
 
