@@ -57,19 +57,17 @@
     </header>
 
     <!-- Personal Information -->
-    <section class="container-fluid">
-        <div class="row bg-color-contact">
-            <h3 class="contact-heading uppercase text-center"> Got a project in mind?</h3>
-            <h5 class="uppercase text-center"> Lets work together</h5>
-
-            <div class="center-form">
-                <form onsubmit="return sendMail(this);" method="POST">
-                    <input type="text" name="name" class="form-control" id="full name" placeholder="Name" required/>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description"></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
-                </form>
-            </div>
+    <section class="pt-3 pb-3 container-fluid bg-color-contact text-center">
+        <h3 class="contact-heading uppercase"> Got a project in mind?</h3>
+        <h5 class="uppercase"> Lets work together</h5>
+            
+        <div class="center-form">
+            <form onsubmit="return sendMail(this);" method="POST">
+                <input type="text" name="name" class="form-control" id="full name" placeholder="Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description"></textarea>
+                <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+            </form>
         </div>
     </section>
 
