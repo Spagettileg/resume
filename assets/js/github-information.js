@@ -16,7 +16,7 @@ function userInformationHTML(user) {
         </div>`; /* Count of people following our user, # being followed & # of public repositories */
 }
 
-function repoInformationHTML(repos) { // GitHub returns this objedt as an array. 
+function repoInformationHTML(repos) { // GitHub returns this object as an array. 
     if (repos.length == 0) {          // If length = 0, the array is empty & no repositories for that user    
         return `<div class="clearfix repo-list">No Repos!</div>`;
     }
