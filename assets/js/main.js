@@ -4,4 +4,8 @@ $(document).ready(function () {
      
     $('#fullstack-years').text('2018 - ' + new Date().getFullYear());
     
+    // Create a table for GitHub Repo data
+    
+    $('#gh-repo-data').tablerize();
+    
 });

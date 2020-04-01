@@ -7,7 +7,7 @@ function userInformationHTML(user) {
         </h2>
         
         <div class="gh-content"> 
-            <div class="pt-2 gh-avatar"> 
+            <div class="pt-2 pb-2 gh-avatar"> 
                 <a href="${user.html_url}" target="_blank">
                     <img src="${user.avatar_url}" width="80" height="80" alt="${user.login}" />
                 </a>
@@ -30,11 +30,36 @@ function repoInformationHTML(repos) { // GitHub returns this object as an array.
                 <p>
                 <strong>Repo list:</strong>
                 </p>
-                <ul>
+                <ul id="gh-repo-data">
                     ${listItemsHTML.join("\n")}
                 </ul>
                     </div>`;
 }
+
+jQuery.fn.tablerize = function() {
+        return this.each(function() {
+                var table = $('<table>');
+                var tbody = $('<tbody>');
+                $(this).find('li').each(function(i) {
+                        var values = $(this).html().split('*');
+                        if(i == 0) {
+                                var thead = $('<thead>');
+                                var tr = $('<tr>');
+                                $.each(values, function(y) {
+                                        tr.append($('<th>').html(values[y]));
+                                });
+                                table.append(thead.append(tr));
+                        } else {
+                           var tr = $('<tr>');
+                           $.each(values, function(y) {
+                                   tr.append($('<td>').html(values[y]));
+                           });
+                           tbody.append(tr);
+                        }
+                });
+                $(this).after(table.append(tbody)).remove();
+        });
+};
 
 function fetchGitHubInformation(event) {
     $("#gh-user-data").html(""); // Bug Fix - Effect of emptying <div>
