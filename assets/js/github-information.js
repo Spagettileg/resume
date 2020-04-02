@@ -28,38 +28,13 @@ function repoInformationHTML(repos) { // GitHub returns this object as an array.
     });
         return `<div class="clearfix repo-list">
                 <p>
-                <strong>Repo list:</strong>
+                <strong>Repo list:</strong><br><small>(repo's not shown can be accessed in <b>GitHub</b>)</small>   
                 </p>
-                <ul id="gh-repo-data">
-                    ${listItemsHTML.join("\n")}
+                <ul class="pl-1" id="gh-repo-data">
+                    ${listItemsHTML.join("*")}
                 </ul>
                     </div>`;
 }
-
-jQuery.fn.tablerize = function() {
-        return this.each(function() {
-                var table = $('<table>');
-                var tbody = $('<tbody>');
-                $(this).find('li').each(function(i) {
-                        var values = $(this).html().split('*');
-                        if(i == 0) {
-                                var thead = $('<thead>');
-                                var tr = $('<tr>');
-                                $.each(values, function(y) {
-                                        tr.append($('<th>').html(values[y]));
-                                });
-                                table.append(thead.append(tr));
-                        } else {
-                           var tr = $('<tr>');
-                           $.each(values, function(y) {
-                                   tr.append($('<td>').html(values[y]));
-                           });
-                           tbody.append(tr);
-                        }
-                });
-                $(this).after(table.append(tbody)).remove();
-        });
-};
 
 function fetchGitHubInformation(event) {
     $("#gh-user-data").html(""); // Bug Fix - Effect of emptying <div>
