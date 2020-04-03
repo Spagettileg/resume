@@ -497,6 +497,9 @@ div#map {
     .skills { /* Tablet view in portrait mode */
         padding-left: 4rem;
     }
+    .projects {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 992px) {
