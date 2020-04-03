@@ -400,7 +400,19 @@ footer .cv-pdf i:hover {
     margin-bottom: 1.875rem;
 }
 
+/*-----------Projects-------------*/
+
+
+
 /*------------Contact-------------*/
+
+.portfolio-image {
+  position: relative;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .contact-heading {
     font-family: "Exo", sans-serif;
