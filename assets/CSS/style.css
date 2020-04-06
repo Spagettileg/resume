@@ -3,44 +3,53 @@
 /*------------Colours----------*/
 
 .bg-color-name-title {
-    background-color: #676767; /*Charcoal background*/
+    background-color: #676767;
+    /*Charcoal background*/
 }
 
 .bg-color-personal-info,
 .bg-color-conferences {
-    background-color: #f4f4f4; /*pale grey background colour*/
+    background-color: #f4f4f4;
+    /*pale grey background colour*/
 }
 
 .bg-color-three-reasons,
 .bg-color-skills,
 .bg-color-contact,
 .bg-color-groups {
-    background-color: #ffffff; /*'About Me' set to white background colour*/
+    background-color: #ffffff;
+    /*'About Me' set to white background colour*/
 }
 
 .bg-color-Work-History,
 .ul-menu-color-Resume {
-    background-color: #205e6b; /*Dark Green*/
+    background-color: #205e6b;
+    /*Dark Green*/
 }
 
 .ul-menu-color-Home {
-    background-color: #765ec2; /*Purple*/
+    background-color: #765ec2;
+    /*Purple*/
 }
 
 .ul-menu-color-Contact {
-    background-color: #2794a9; /*Teal*/
+    background-color: #2794a9;
+    /*Teal*/
 }
 
 .ul-menu-color-Interests {
-    background-color: #a96e5b; /*Cappucino Brown*/
+    background-color: #a96e5b;
+    /*Cappucino Brown*/
 }
 
 .ul-menu-color-GitHub {
-    background-color: #50394c; /*Dark Purple*/
+    background-color: #50394c;
+    /*Dark Purple*/
 }
 
 .ul-menu-color-DownloadCV {
-    background-color: #878f99; /*Medium Grey*/
+    background-color: #878f99;
+    /*Medium Grey*/
 }
 
 body {
@@ -64,22 +73,25 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo",sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 400;
-    color: #fafafa; /*off-white*/
+    color: #fafafa;
+    /*off-white*/
 }
 
 .inline-block {
-    display: inline-block; /*Allows nice spacing of the content across the footer*/
+    display: inline-block;
+    /*Allows nice spacing of the content across the footer*/
 }
 
 .row-table {
-    display: table; /*Columns will remain of equal height, regardless of content*/
+    display: table;
+    /*Columns will remain of equal height, regardless of content*/
 }
 
 ul {
-  /* removes bullet points from unordered list */
-  list-style-type: none;
+    /* removes bullet points from unordered list */
+    list-style-type: none;
 }
 
 .history-heading,
@@ -114,13 +126,18 @@ header {
     background: url("../images/paul.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
-    background-color: #676767; /*Dark Grey*/
+    background-size: cover;
+    background-color: #676767;
+    /*Dark Grey*/
     min-height: 22.5rem;
-    transition: all .5s ease-in-out; /*animation appears on different browsers*/
-    -o-transition: all .5s ease-in-out; /*as above*/
-    -moz-transition: all .5s ease-in-out; /*as above*/
-    -webkit-transition: all .5s ease-in-out; /*as above*/
+    transition: all .5s ease-in-out;
+    /*animation appears on different browsers*/
+    -o-transition: all .5s ease-in-out;
+    /*as above*/
+    -moz-transition: all .5s ease-in-out;
+    /*as above*/
+    -webkit-transition: all .5s ease-in-out;
+    /*as above*/
 }
 
 .name {
@@ -128,25 +145,30 @@ header {
     font-weight: 100;
     font-size: 2.875rem;
     margin-top: 3.125rem;
-    color: #ffffff; /*white*/
+    color: #ffffff;
+    /*white*/
 }
 
 .title {
     font-family: Roboto, sans-serif;
     font-weight: 200;
     font-size: 1.75rem;
-    margin-top: 1.25rem; /*create extra space from name*/
+    margin-top: 1.25rem;
+    /*create extra space from name*/
     margin-bottom: 5.625rem;
-    color: #ffffff; /*white*/
+    color: #ffffff;
+    /*white*/
 }
 
 #nav {
-    margin: 0; /*The 4 elements now matches the shape of the title
+    margin: 0;
+    /*The 4 elements now matches the shape of the title
     with no overlap */
 }
 
 #nav li {
-    padding: 0; /*Targets zero padding to all li Class commands in html file*/
+    padding: 0;
+    /*Targets zero padding to all li Class commands in html file*/
 }
 
 .menuitem {
@@ -157,27 +179,33 @@ header {
 }
 
 /*The anchor 'a' below creates a clickable area for the user*/
+
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #ffffff; /*white*/
+    color: #ffffff;
+    /*white*/
     height: 7.5rem;
 }
 
 .menuitem a i {
     padding-top: 1.375rem;
-    display: block; /*Occupy its parent container*/
-    color: #fafafa; /*off-white*/
+    display: block;
+    /*Occupy its parent container*/
+    color: #fafafa;
+    /*off-white*/
     font-size: 1.625rem;
 }
 
 .menuitem span {
-    display: block; /*Occupy its parent container*/
+    display: block;
+    /*Occupy its parent container*/
     width: 100%;
     padding-top: 0.3125rem;
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.875rem; /*Change from default font size*/
+    font-size: 0.875rem;
+    /*Change from default font size*/
     font-weight: 300;
     letter-spacing: 0.125rem;
 }
@@ -185,30 +213,38 @@ header {
 /*------------Hover.css----------*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0,0,0,0.2); /*Background colour change from blue to faint grey*/
+    background: rgba(0, 0, 0, 0.2);
+    /*Background colour change from blue to faint grey*/
     height: 7.5rem;
 }
 
 /*------------Footer-------------*/
 
 footer {
-    background-color: #525252; /*dark grey*/
-    color: #fafafa; /*off-white*/
+    background-color: #525252;
+    /*dark grey*/
+    color: #fafafa;
+    /*off-white*/
 }
 
 footer .cv-pdf i {
-    color: #fafafa; /*off-white*/
+    color: #fafafa;
+    /*off-white*/
     text-align: center;
-    font-size: 1.125rem; /*increase font size from default size*/
+    font-size: 1.125rem;
+    /*increase font size from default size*/
     padding-left: 0.3125rem;
 }
 
 footer .cv-pdf i:hover {
-    color: #2794A9; /*Teal*/
+    color: #2794A9;
+    /*Teal*/
     transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out; /*Windows*/
-    -webkit-transition: all 0.35s ease-in-out; /*Apple*/
+    -moz-transition: all 0.35s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.35s ease-in-out;
+    /*Apple*/
     transform: scale(1.15);
     opacity: 0.9;
 }
@@ -221,20 +257,27 @@ footer .cv-pdf i:hover {
     width: 2rem;
     height: 2rem;
     padding: 0.75rem 0;
-    border-radius: 50%; /*Enables creation of circle where width & height of same value*/
-    font-size: 0.8125rem; /*Enables icon to sit within border*/  
+    border-radius: 50%;
+    /*Enables creation of circle where width & height of same value*/
+    font-size: 0.8125rem;
+    /*Enables icon to sit within border*/
     line-height: 0.4375rem;
     text-align: center;
-    color: #fafafa; /*off-white*/
-    background: #8f8f8f; /*pale grey*/
+    color: #fafafa;
+    /*off-white*/
+    background: #8f8f8f;
+    /*pale grey*/
     transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out; /*Windows*/
-    -webkit-transition: all 0.35s ease-in-out; /*Apple*/
+    -moz-transition: all 0.35s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.35s ease-in-out;
+    /*Apple*/
 }
 
 .social-links li a i:hover {
-    background: #2794A9; /*Teal*/
+    background: #2794A9;
+    /*Teal*/
     transform: scale(1.15);
     opacity: 0.9;
 }
@@ -247,7 +290,8 @@ footer .cv-pdf i:hover {
 
 .three-reasons-icon {
     font-size: 1.625rem;
-    color: #765EC2; /*Same colour as menu 'Home' button*/
+    color: #765EC2;
+    /*Same colour as menu 'Home' button*/
 }
 
 .three-reasons-heading {
@@ -258,8 +302,10 @@ footer .cv-pdf i:hover {
 
 .personal-info-item {
     margin-bottom: 1.25rem;
-    display: block; /*occupy entirety of horizontal space*/
-    clear: both; /*no items can appear either side of the item*/
+    display: block;
+    /*occupy entirety of horizontal space*/
+    clear: both;
+    /*no items can appear either side of the item*/
 }
 
 .personal-info-item .key,
@@ -269,13 +315,14 @@ footer .cv-pdf i:hover {
 
 .personal-info-item .key p,
 .personal-info-item .value p {
-   margin: 0;
+    margin: 0;
 }
 
 .personal-info-item .key {
     display: inline-block;
     width: 30%;
-    margin-right: 1.125rem; /*set to 60% of width. Width + margin = 90%*/
+    margin-right: 1.125rem;
+    /*set to 60% of width. Width + margin = 90%*/
     padding-top: 0.125rem;
     vertical-align: top;
 }
@@ -285,7 +332,8 @@ footer .cv-pdf i:hover {
 }
 
 .personal-info-item .value {
-    display: inline-block; /*Allows for the key (Name, etc) to sit to the left*/
+    display: inline-block;
+    /*Allows for the key (Name, etc) to sit to the left*/
     position: relative;
     width: 60%;
 }
@@ -299,11 +347,13 @@ footer .cv-pdf i:hover {
 
 .progress-type {
     position: absolute;
-    left: 0px; /*text moves to left*/
+    left: 0px;
+    /*text moves to left*/
     font-weight: 400;
     padding: 3px 30px 2px 10px;
-    color: #fafafa; /*off-white*/
-    background-color: rgba(25,25,25,0.2);
+    color: #fafafa;
+    /*off-white*/
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
@@ -312,58 +362,67 @@ footer .cv-pdf i:hover {
 
 .fa-tv,
 .fa-cogs,
-.fa-database { /* Fontawesome 5 icons resizing in 'My Skill's section */
+.fa-database {
+    /* Fontawesome 5 icons resizing in 'My Skill's section */
     font-size: 1.5rem;
 }
 
 /*---------Skills Flip Cards-----------*/
 
 .flip-card {
-  background-color: transparent;
-  width: 125px;
-  height: 125px;
-  border: 1px solid #ddd;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    background-color: transparent;
+    width: 125px;
+    height: 125px;
+    border: 1px solid #ddd;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
+
 .flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
 }
 
 /* Style the front side (fallback if image is missing) */
+
 .flip-card-front {
-  background-color: #fff;
-  color: black;
+    background-color: #fff;
+    color: black;
 }
 
 /* Style the back side */
+
 .flip-card-back {
-  background-color: #205e6b;
-  /* Dark Green */
-  color: white;
-  padding-top: 2.1rem;
-  text-align: center;    
-  transform: rotateY(180deg);
+    background-color: #205e6b;
+    /* Dark Green */
+    color: white;
+    padding-top: 2.1rem;
+    text-align: center;
+    transform: rotateY(180deg);
 }
 
 /*------------Work History-------------*/
@@ -378,13 +437,15 @@ footer .cv-pdf i:hover {
 .timeline-item p {
     padding: 0;
     margin: 0;
-    
+
 }
 
 .timeline-item::before {
     content: attr(dates);
-    position: absolute; /*fix the date just above the employers location*/
-    left: 2.5em; /*further refines positioning of the dates*/
+    position: absolute;
+    /*fix the date just above the employers location*/
+    left: 2.5em;
+    /*further refines positioning of the dates*/
     top: 3em;
     display: block;
     font-family: "Exo", sans-serif;
@@ -400,14 +461,19 @@ footer .cv-pdf i:hover {
     display: block;
     top: 2.4em;
     position: absolute;
-    left: -0.375rem; /*Negative value allows disc to sit out on left hand border*/
-    border-radius: 0.75rem; /*creates a disc shape, feeding from width & height 12px*/
-    content: ""; /*No content other then the border itself*/
-    background: #fafafa; /*off-white*/
+    left: -0.375rem;
+    /*Negative value allows disc to sit out on left hand border*/
+    border-radius: 0.75rem;
+    /*creates a disc shape, feeding from width & height 12px*/
+    content: "";
+    /*No content other then the border itself*/
+    background: #fafafa;
+    /*off-white*/
 }
 
 .history-heading {
-    color: #fafafa; /*off-white*/
+    color: #fafafa;
+    /*off-white*/
     margin-bottom: 3.125rem;
 }
 
@@ -418,48 +484,48 @@ footer .cv-pdf i:hover {
 /*-----------Projects-------------*/
 
 .container-project {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .image {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 0.75rem;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 0.75rem;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #205e6b;
-  /* Dark Green */
-  color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0.75rem;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #205e6b;
+    /* Dark Green */
+    color: #fff;
 }
 
 .container-project:hover .overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .text {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 500;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .project-text {
@@ -481,11 +547,11 @@ footer .cv-pdf i:hover {
 /*------------Contact-------------*/
 
 .portfolio-image {
-  position: relative;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-heading {
@@ -499,15 +565,18 @@ footer .cv-pdf i:hover {
 .center-form {
     padding-top: 0.625rem;
     margin: 0 auto;
-    max-width: 70%; /*width reduced to 70% as name field not required at 100%*/
+    max-width: 70%;
+    /*width reduced to 70% as name field not required at 100%*/
 }
 
-button[type="submit"]{
+button[type="submit"] {
     margin-top: 0.9375rem;
     margin-bottom: 1.25rem;
-    background-color: #205e6b; /*Dark Green*/
-    color: #fafafa; /*off-white*/
-} 
+    background-color: #205e6b;
+    /*Dark Green*/
+    color: #fafafa;
+    /*off-white*/
+}
 
 /*---------------Map--------------------*/
 
@@ -518,7 +587,8 @@ div#map {
 /*------------Media Queries-------------*/
 
 @media (min-width: 375px) and (orientation: landscape) {
-    .skills { /* Mobile view in landscape mode */
+    .skills {
+        /* Mobile view in landscape mode */
         padding-left: 1.35rem;
     }
     .fa-bolt,
@@ -533,19 +603,21 @@ div#map {
         justify-content: center;
     }
     .text {
-       align-items: center;
-       padding-left: 0;
+        align-items: center;
+        padding-left: 0;
     }
 }
 
 @media (min-width: 768px) {
-    .skills { /* Tablet view */
+    .skills {
+        /* Tablet view */
         padding-left: 1.7rem;
     }
 }
 
 @media (min-width: 768px) and (orientation: portrait) {
-    .skills { /* Tablet view in portrait mode */
+    .skills {
+        /* Tablet view in portrait mode */
         padding-left: 4rem;
     }
     .projects {
@@ -561,18 +633,22 @@ div#map {
 }
 
 @media (min-width: 992px) {
-.center-form { /* Contact form for users to submit new project proposals */ 
-    padding-top: 1.875rem; /*Center-Form code adjusted for Mobile view*/
-    min-height: 15rem;
-    margin: 0 auto;
-    max-width: 50%; /*width reduced from 70% to 50%
+    .center-form {
+        /* Contact form for users to submit new project proposals */
+        padding-top: 1.875rem;
+        /*Center-Form code adjusted for Mobile view*/
+        min-height: 15rem;
+        margin: 0 auto;
+        max-width: 50%;
+        /*width reduced from 70% to 50%
     as name field not required at 100%*/
-}
+    }
 }
 
 @media (min-width: 1024px) {
     .fa-bolt,
-    .fa-github { /* Tablet view - My Portfolio reverse card links to Repo & Live sites */
+    .fa-github {
+        /* Tablet view - My Portfolio reverse card links to Repo & Live sites */
         font-size: 2rem;
         margin-left: 0.5rem;
     }
@@ -582,13 +658,15 @@ div#map {
 }
 
 @media (min-width: 1200px) {
-    .skills { /* Desktop view */
+    .skills {
+        /* Desktop view */
         padding-left: 1.25rem;
     }
 }
 
 @media (min-width: 700px) and (orientation: portrait) {
-    .skills { /* Desktop view in portrait mode */
+    .skills {
+        /* Desktop view in portrait mode */
         padding-left: 1.75rem;
     }
     .fa-bolt,
