@@ -233,6 +233,8 @@ footer .cv-pdf i:hover {
 
 .social-links li a i:hover {
     background: #2794A9; /*Teal*/
+    transform: scale(1.15);
+    opacity: 0.9;
 }
 
 #footer-details {
