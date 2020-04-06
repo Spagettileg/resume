@@ -90,6 +90,16 @@ ul {
     margin-bottom: 2.5rem;
 }
 
+.section-heading a {
+    color: #205e6b;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.section-heading a:hover {
+    font-weight: 600;
+}
+
 /*------------Heading----------*/
 
 header {
