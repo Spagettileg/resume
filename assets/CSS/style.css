@@ -344,7 +344,8 @@ footer .cv-pdf i:hover {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #205e6b;
+  /* Dark Green */
   color: white;
   padding-top: 2.1rem;
   text-align: center;    
@@ -411,6 +412,7 @@ footer .cv-pdf i:hover {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 0.75rem;
 }
 
 .overlay {
@@ -419,11 +421,14 @@ footer .cv-pdf i:hover {
   bottom: 0;
   left: 0;
   right: 0;
+  border-radius: 0.75rem;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #205e6b;
+  /* Dark Green */
+  color: #fff;
 }
 
 .container-project:hover .overlay {
@@ -432,7 +437,8 @@ footer .cv-pdf i:hover {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -440,6 +446,22 @@ footer .cv-pdf i:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.project-text {
+    font-size: 3rem;
+}
+
+.fa-bolt,
+.fa-github {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.fa-bolt:hover,
+.fa-github:hover {
+    transform: scale(1.15);
+    opacity: 0.9;
 }
 
 /*------------Contact-------------*/
@@ -485,6 +507,21 @@ div#map {
     .skills { /* Mobile view in landscape mode */
         padding-left: 1.35rem;
     }
+    .fa-bolt,
+    .fa-github {
+        font-size: 1.1rem;
+        padding-left: 2px;
+    }
+    .project-text {
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text {
+       align-items: center;
+       padding-left: 0;
+    }
 }
 
 @media (min-width: 768px) {
@@ -500,6 +537,13 @@ div#map {
     .projects {
         font-size: 1rem;
     }
+    .fa-bolt,
+    .fa-github {
+        font-size: 1rem;
+    }
+    .project-text {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -512,6 +556,17 @@ div#map {
 }
 }
 
+@media (min-width: 1024px) {
+    .fa-bolt,
+    .fa-github { /* Tablet view - My Portfolio reverse card links to Repo & Live sites */
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+    .project-text {
+        font-size: 2rem;
+    }
+}
+
 @media (min-width: 1200px) {
     .skills { /* Desktop view */
         padding-left: 1.25rem;
@@ -521,5 +576,12 @@ div#map {
 @media (min-width: 700px) and (orientation: portrait) {
     .skills { /* Desktop view in portrait mode */
         padding-left: 1.75rem;
+    }
+    .fa-bolt,
+    .fa-github {
+        font-size: 0.95rem;
+    }
+    .project-text {
+        font-size: 0.95rem;
     }
 }
