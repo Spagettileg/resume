@@ -209,6 +209,8 @@ footer .cv-pdf i:hover {
     -o-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out; /*Windows*/
     -webkit-transition: all 0.35s ease-in-out; /*Apple*/
+    transform: scale(1.15);
+    opacity: 0.9;
 }
 
 .social-links {
