@@ -5,6 +5,7 @@
 .bg-color-name-title {
     background-color: #676767;
     /*Charcoal background*/
+    background-image: linear-gradient(to right, #765ec2, #205e6b, #2794a9, #a96e5b, #50394c, #878f99);
 }
 
 .bg-color-personal-info,
