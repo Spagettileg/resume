@@ -49,6 +49,10 @@ committment to a career change from a Business Operations Management Consultant 
 
 ### User & Business Objectives
 
+#### User
+
+#### Business
+
 ### Wireframes
 
 ### User Stories
@@ -72,6 +76,23 @@ committment to a career change from a Business Operations Management Consultant 
 ### Tools
 
 ## Features
+
+**Home (index.html)**
+
+
+**Resume (resume.html)**
+
+
+**Contact (contact.html)**
+
+
+**Interests (interests.html)**
+
+
+**GitHub (github.html)**
+
+
+**Download CV** 
 
 ### Feature left to implement
 
