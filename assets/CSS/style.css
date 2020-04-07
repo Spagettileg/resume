@@ -286,6 +286,16 @@ footer .cv-pdf i:hover {
     margin: 3.125rem;
 }
 
+.full-stack a {
+    color: #fafafa;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.full-stack a:hover {
+    color: #2794A9;
+}
+
 /*------------Three Reasons-------------*/
 
 .three-reasons-icon {
