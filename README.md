@@ -75,8 +75,23 @@ committment to a career change from a Business Operations Management Consultant 
 * User to download the developers latest cv in pdf format
 
 ### CSS Framework
+Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices.
 
 ### Colour Palette
+Colours used in this project were sourced from [MyColor Space](https://mycolor.space/). Essentially, the colours are seeking to capture a combination of fresh and earthy tones to support the key attrbutes of the developer. Energy, intelligence, innovation and secure.
+
+Colour         | Hex Code
+---------------|----------
+Duck Egg Blue  | #587E7F
+Custard Yellow | #FBF27C
+Sage Green     | #5C835A
+Dark Green     | #305C5C
+Light Grey     | #CED4DA
+Black          | #000
+White          | #FFF
+Deep Purple    | #850D55
+Dark Pink      | #D41E87
+
 
 ### Typography
 
