@@ -50,12 +50,29 @@ committment to a career change from a Business Operations Management Consultant 
 ### User & Business Objectives
 
 #### User
+- An all inclusive resume design reminds the user of past, present and future information technology committments 
+- Navigation is simple with a quality finishing touch
+- Photo image of the developer is clear and professional
+- Understand the background to the developer through setting out their credentials
+- Work history disclosure helps create a fuller picture of the developers overall capability 
 
 #### Business
+- Prospective clients can quickly access information upon capability, skills and achievements
+- Web based design makes the resume easily portable
+- Content rich design saves prospective clients from repeated or unnecesary calls and emails   
 
 ### Wireframes
 
 ### User Stories
+* To create a 'one stop shop' for all information to showcase a developers profile
+* Personal information and a summary of the developers background to appear on the homepage
+* Ease of navigation required to enable the user to move around within the resume wthout getting lost in detail
+* Developers image to be personal & professional and to be on show in all important pages of the resume
+* A dedicated resume page that includes a work history, skills reference and a summary project portfolio
+* Contact with the developer to intorduce new project ideas
+* To understand any conferences / meets ups attended and groups / professional societies the developer belongs too 
+* Access to the developers GitHub Repository to understand projects worked on with demonstrable evidence of languages used
+* User to download the developers latest cv in pdf format
 
 ### CSS Framework
 
@@ -131,13 +148,6 @@ Competency overview of my Front and Back End skills, together with a chronology 
 Enable users, vendors, etc to contact me with new software project proposals or support on existing software projects. 
 Create links to communicate by email and social media.
 
-***
-
-### Prerequisite
-
-This software has been designed to run on Chrome, Edge, Firefox, Safari, Opera & Internet Explorer browsers.
-
-***
 
 ### Design
 
