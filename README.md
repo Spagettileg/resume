@@ -1,21 +1,104 @@
-# My resume project 
-
-Welcome!
+# Resume | Paul Friel | Full Stack Developer 
 
 ***
 
-[Direct link to GitHub] (https://github.com/Spagettileg/resume)
+[Direct link to GitHub](https://github.com/Spagettileg/resume)
 
-[Direct link to live project] (https://spagettileg.github.io/resume/)
+[Direct link to live resume](https://spagettileg.github.io/resume/)
 
 ***
 
-### Introduction
-This project is designed to showcase my technology capability and experience through a professional
+The resume is designed to showcase my technology capability and experience through a professional
 web design built upon HTML, CSS and JavaScript. The web design is important to demonstrate my serious
 committment to a career change from a Business Operations Management Consultant to a Full Stack Developer.
 
-My resume has been constructed upon the following pillars.
+## Table of Contents
+
+1. [UXD Considerations](#uxd-considerations)
+    * [User & Business Objectives](#user-&-business-objectives) 
+    * [Wireframes](#wireframes)
+    * [User Stories](#user-stories)
+    * [CSS Framework](#css-framework)
+    * [Colour Palette](#colour-palette)
+    * [Typography](#typography)
+    * [Icon Graphics](#icon-graphics)
+    * [Navbar Design](#navbar-design)
+
+2. [Technologies Applied](#technologies-applied)
+    * [Languages](#languages)
+    * [Libraries](#libraries)
+    * [Tools](#tools)
+
+3. [Features](#features)
+    * [Features left to implement](#features-left-to-implement)  
+
+4. [Tests](#tests)
+    * [Compatibility](#compatibility)
+    * [Test Observations](#test-observations)
+
+5. [Deployment](#deployment)
+    * [How to run this project locally](#how-to-run-this-project-locally) 
+
+6. [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+    * [Assets](#assets)
+    * [Acknowledgements](#acknowledgements)
+
+## UXD Considerations
+
+### User & Business Objectives
+
+### Wireframes
+
+### User Stories
+
+### CSS Framework
+
+### Colour Palette
+
+### Typography
+
+### Icon graphics
+
+### Navbar design
+
+## Technologies
+
+### Languages
+
+### Libraries
+
+### Tools
+
+## Features
+
+### Feature left to implement
+
+## Tests
+
+### Compatibility
+
+### Test Observations
+
+## Deployment
+
+### How to run this project locally 
+
+## Credits
+
+### Content
+All content was provided by the Code Institute
+
+### Media
+All media was provided by the Code Institute
+
+### Assets
+
+### Acknowledgements
+Thanks to Matt Rudge, Timmy O'Mahony & Brian O'Grady (all Code Institute) for their time, suggestions, and constructive feedback!
+
+Big thanks to my mentor Theo Despoudis on ongoing technical guidance.
 
 ###### About Me
 What do i do? How do i do it? and Why hire me?
