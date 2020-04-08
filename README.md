@@ -30,7 +30,6 @@ committment to a career change from a Business Operations Management Consultant 
     * [Tools](#tools)
 
 3. [Features](#features)
-    * [Features left to implement](#features-left-to-implement)  
 
 4. [Tests](#tests)
     * [Compatibility](#compatibility)
@@ -42,7 +41,6 @@ committment to a career change from a Business Operations Management Consultant 
 6. [Credits](#credits)
     * [Content](#content)
     * [Media](#media)
-    * [Assets](#assets)
     * [Acknowledgements](#acknowledgements)
 
 ## UXD Considerations
@@ -168,23 +166,81 @@ For tablet and desktop views, the navbar offers 6 functions on a horizontal view
 ## Features
 
 **Home (index.html)**
-
+- Add profile image, split header on 1/3 - 2/3 ratio
+- Logo picture added with anchor to take user to home page 
+- Include resume owner name and title
+- Add menu > Home, Resume, Contact and DownloadCV options with page links
+- Add .hover effect to navigation menu items
+- Add <Footer> to display copyright data and social media links
+- Fill the <Footer> with information on resume owner
+- Create a <section> class thats positioned in middle of page setting out 3 reasons to hire
+- <section> class follows a 1/3 - 2/3 ratio design 
+- Left side (1/3) = Personal information i.e. Name, address, etc
+- Right side (2/3) - Summary narrative to support 3 reasons to hire
+- Footer provides a summary narrative on developer capability, link to download CV and social media links
 
 **Resume (resume.html)**
+- Copy <header> and <footer> from the index.html page
+- Create a work history timeline and a skill set summary
+- Create a <section> class thats positioned in middle of page setting out 3 tier architecture that forms backbone of developers skillset
+- <section> class follows a 1/3 - 2/3 ratio design 
+- Left side (1/3) = work history timeline i.e. Dates, Employer name & role title
+- Right side (2/3) - Skiils Set Summary narrative to cover both Front End, Back End and Databases capability
+- Add resume skills (Refer below)
+ 
+Product             | Class
+--------------------|--------
+HTML5               | Front End
+Bootstrap 4         | Front End
+CSS3                | Front End
+SASS                | Front End
+Materialize         | Front End
+Javascript          | Front & Back End
+jQuery              | Front End
+D3.js               | Front End
+DC.js               | Front End
+Python 3            | Back End
+Django              | Back End 
+Flask               | Back End
+MySQL               | Database (Relational)
+MongoDB             | Database (NoSQL)
+postgreSQL          | Database (Relational)
+Heroku              | Plaform as a Service (PaaS) & Hosting
+Git                 | Version Control
+GitHub              | Hosting
+AWS (IDE, IAM & S3) | Cloud based products
+Balsamiq            | Wireframe & Mock up's
+Jasmine             | Testing Javascript
+TravisCI            | Testing Software
+Stripe              | Payments Software
+Slack               | Collaboration Software
 
+- 'SR only' span class to be used to help visually impaired users 
+- My Portfolio includes all projects completed to date. The flip side of each card design allows the user to access both live project and repo code held in GitHub
+- Footer provides a summary narrative on developer capability, link to download CV and social media links
 
 **Contact (contact.html)**
-
+- Copy <header> and <footer> from the index.html page
+- Create a <section> class thats positioned in middle of page
+- Add a <Form> class with preset snippet to include following:
+- User name / Email / Project Description
+- Add button to allow user to send project request, fire off to server & return information 
+- Footer provides a summary narrative on developer capability, link to download CV and social media links
 
 **Interests (interests.html)**
-
+- (1/3 page) Google Maps API used to support dropping pins in locations where the developer has attended conferences and meet up's
+- (2/3 page) Container for 'My Groups & Societies' that includes 4 notable items of interest to the developer
+- Footer provides a summary narrative on developer capability, link to download CV and social media links
 
 **GitHub (github.html)**
-
+- Link to GitHub created to allow user to view on Repo data or use an input box to search for other developer repo'social 
+- A list of repo's will apeear for the user to view and clickto select
+- Footer provides a summary narrative on developer capability, link to download CV and social media links
 
 **Download CV** 
-
-### Feature left to implement
+- Provide a cv in PDF format
+- Links to cv appear in footer that is prewsnt on all html pages
+- Add target="_blank" to ensure the cv opens up in a different browsers
 
 ## Tests
 User acceptance testing control document created in MS Excel. Key tests created to ensure
@@ -203,6 +259,30 @@ Safari   |12.4.5
 Opera    |66.0.3515.72
 
 ### Test Observations
+The following media queries were added to improve the project responsiveness on all tested devices.
+
+Media Query                 | Device  | Class           | Comments
+----------------------------|---------|-----------------|-------------
+min-width 375px & landscape | Mobile  | `.skills`       | `padding-left: 1.35rem`
+min-width 375px & landscape | Mobile  | `.fa-bolt`      | `font-size: 1.1rem`, `padding-left: 2px` 
+min-width 375px & landscape | Mobile  | `.fa-github`    | `font-size: 1.1rem`, `padding-left: 2px`
+min-width 375px & landscape | Mobile  | `.project-text` | `font-size: 1rem`, `display: flex`, `align-items: center`, `justify-content: center`
+min-width 375px & landscape | Mobile  | `.text`         | `align-items: center`, `padding-left: 0`
+min-width 768px             | Tablet  | `.skills`       | `padding-left: 1.7rem` 
+min-width 768px & portrait  | Tablet  | `.skills`       | `padding-left: 4rem`
+min-width 768px & portrait  | Tablet  | `.projects`     | `font-size: 1rem`
+min-width 768px & portrait  | Tablet  | `.fa-bolt`      | `font-size: 1rem`
+min-width 768px & portrait  | Tablet  | `.fa-github`    | `font-size: 1rem`
+min-width 768px & portrait  | Tablet  | `.project-text` | `font-size: 1rem`
+min-width 992px             | Tablet  | `.center-form`  | `padding-top: 1.875rem`, `min-height: 15rem`, `margin: 0 auto`, `max-width: 50%`
+min-width 1024px            | Tablet  | `.fa-bolt`      | `font-size: 2rem`, `margin-left: 0.5rem`
+min-width 1024px            | Tablet  | `.fa-github`    | `font-size: 2rem`, `margin-left: 0.5rem`
+min-width 1024px            | Tablet  | `.project-text` | `font-size: 2rem`
+min-width 1200px            | Desktop | `.skills`       | `padding-left: 1.25rem`
+min-width 700px & portrait  | Desktop | `.skills`       | `padding-left: 1.75rem`
+min-width 700px & portrait  | Desktop | `.fa-bolt`      | `font-size: 0.95rem`
+min-width 700px & portrait  | Desktop | `.fa-github`    | `font-size: 0.95rem`
+min-width 700px & portrait  | Desktop | `.project-text` | `font-size: 0.95rem`
 
 ## Deployment
 This project was developed using the [AWS Cloud9](https://aws.amazon.com/cloud9/) IDE, committed to git and pushed to GitHub using the built in function within cloud9.
@@ -234,81 +314,15 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Credits
 
 ### Content
-All content was provided by the Code Institute
+[Card Flip](https://www.w3schools.com/howto/howto_css_flip_card.asp) sourced from W3Schools.com to help showcase my skills on resume.html
+[Image Hover Overlay}](https://www.w3schools.com/css/css3_images.asp) sourced from W3Schools.com to create a fade transition to reverse of image card in my portfolio, resume.html
 
 ### Media
-All media was provided by the Code Institute
-
-### Assets
+- Software logo's appearing in resume.html page sourced from [Google images](https://www.google.com/search?q=software+icon+images&tbm=isch&chips=q:software+icon+images,g_1:logo:cKWIH1cHXB4%3D&rlz=1C1CHBF_enGB853GB853&hl=en-GB&ved=2ahUKEwiM6P_bmtnoAhUi2OAKHX08CxcQ4lYoBnoECAEQHw&biw=1903&bih=969) 
+- My Portfolio images appearing in resume.html sourced from developers [GitHub Repo](https://github.com/Spagettileg)
+- Map appearing in interests.html sourced from [Google Maps Platform](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 ### Acknowledgements
 Thanks to Matt Rudge, Timmy O'Mahony & Brian O'Grady (all Code Institute) for their time, suggestions, and constructive feedback!
 
 Big thanks to my mentor Theo Despoudis on ongoing technical guidance.
-
-###### About Me
-What do i do? How do i do it? and Why hire me?
-
-###### My Skills
-Competency overview of my Front and Back End skills, together with a chronology of my work history. 
-
-###### Contact Me
-Enable users, vendors, etc to contact me with new software project proposals or support on existing software projects. 
-Create links to communicate by email and social media.
-
-
-
-
-#### index.html
-
-- Add profile image, split header on 1/3 - 2/3 ratio
-- Logo picture added with anchor to take user to home page 
-- Include resume owner name and title
-- Add menu > Home, Resume, Contact and DownloadCV options with page links
-- Add .hover effect to navigation menu items
-- Add <Footer> to display copyright data and social media links
-- Fill the <Footer> with information on resume owner
-- Create a <section> class thats positioned in middle of page setting out 3 reasons to hire
-- <section> class follows a 1/3 - 2/3 ratio design 
-- Left side (1/3) = Personal information i.e. Name, address, etc
-- Right side (2/3) - Summary narrative to support 3 reasons to hire
-
-#### resume.html
-
-- Copy <header> and <footer> from the index.html page
-- Create a work history timeline and a skill set summary
-- Create a <section> class thats positioned in middle of page setting out 3 reasons to hire
-- <section> class follows a 1/3 - 2/3 ratio design 
-- Left side (1/3) = work history timeline i.e. Dates, Employer name & role title
-- Right side (2/3) - Skiils Set Summary narrative to cover both Front & Back End capability
-- Adding resume skills (HTML / CSS / JS / Python / Django / MySQL / MongoDB)
-- resume skiils to be shown graphically as % competence
-- 'SR only' span class to be used to help visually impaired users 
-
-#### contact.html
-
-- Copy <header> and <footer> from the index.html page
-- Create a <section> class thats positioned in middle of page
-- Add a <Form> class with preset snippet to include following:
-- User name / Email / Project Description
-- Add button to allow user to send project request, fire off to server & return information 
-
-#### DownloadCV
-
-- Provide a resume in PDF format
-- Create new folder under 'assets' > 'cv'
-- Upload latest cv in pdf format
-- Update all links on all html pages
-- Add targte="_blank" to ensure the cv opens up in a different browsers
-- <Footer> links in all html pages to be updated for correct access to cv 
-
-#### Compatability
-
-All major browser platforms were tested in Mobile, Tablet & Desktop configurations
-
-- Chrome
-- Edge
-- Firefox
-- Safari
-- Opera
-- Internet Explorer
