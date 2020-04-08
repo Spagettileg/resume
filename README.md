@@ -80,32 +80,90 @@ Bootstrap was the chosen framework for styling my project. I used the Bootstrap 
 ### Colour Palette
 Colours used in this project were sourced from [MyColor Space](https://mycolor.space/). Essentially, the colours are seeking to capture a combination of fresh and earthy tones to support the key attrbutes of the developer. Energy, intelligence, innovation and secure.
 
-Colour         | Hex Code
----------------|----------
-Duck Egg Blue  | #587E7F
-Custard Yellow | #FBF27C
-Sage Green     | #5C835A
-Dark Green     | #305C5C
-Light Grey     | #CED4DA
-Black          | #000
-White          | #FFF
-Deep Purple    | #850D55
-Dark Pink      | #D41E87
-
+Colour          | Hex Code
+----------------|----------
+Charcoal Grey   | #676767
+Medium Grey     | #878F99
+Gun Metal Grey  | #525252
+Dark Cloud Grey | #555555
+Steel Grey      | #8F8F8F
+Pale Grey       | #F4F4F4
+White           | #FFFFFF
+Off White       | #FAFAFA
+Dark Green      | #205E6B
+Teal            | #2794A9
+Purple          | #765EC2
+Dark Purple     | #50394C
+Cappucino Brown | #A96E5B
 
 ### Typography
+[Roboto](https://fonts.google.com/) & [Exo](https://fonts.google.com/) fonts were used throughout this project.
 
 ### Icon graphics
+Font Awesome 5 icon graphics were used in conjunction with Bootstrap 4, primarily to support information section headers
+
+Page           | Function                     | Font  
+---------------|------------------------------|-------
+All pages      | Home menu item               | `fa fa-home`
+All pages      | Resume menu item             | `fa fa-graduation`
+All pages      | Contact menu item            | `far fa-comment`
+All pages      | Interests menu item          | `fa fa-cog`    
+All pages      | Github menu item             | `fab fa-github`
+All pages      | Download CV menu item        | `fa fa-download`
+All pages      | Footer - Download my CV      | `fa fa-download`
+All pages      | Footer - MySocial - LinkedIn | `fab fa-linkedin`
+All pages      | Footer - MySocial - GitHub   | `fab fa-github`
+index.html     | 'About Me' - What do i do?   | `fa fa-question`
+index.html     | 'About Me' - How do i do it? | `fa fa-thumbs-up`
+index.html     | 'About Me' - Why hire me?    | `fas fa-eye`
+resume.html    | Front End Skills             | `fa fa-tv`
+resume.html    | Back End Skills              | `fas fa-cogs`
+resume.html    | Databases                    | `fas-fa-database`
+interests.html | My Groups & Societies        | `fa fa-users`
 
 ### Navbar design
+For tablet and desktop views, the navbar offers 6 functions on a horizontal view. For mobile devices, all the same options collapse into a responsive design. 
 
-## Technologies
+- Developer Brand Image
+- Home
+- Resume
+- Contact
+- Interests
+- GitHub
+- Download CV 
+
+## Technologies Applied
 
 ### Languages
+•	[HTML](https://html.spec.whatwg.org/multipage/) used as the markup language
+
+•	[CSS3](https://www.w3.org/Style/CSS/) used to style the HTML
+
+•	[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) used mostly for DOM manipulation. cdnjs.cloudflare.com used to animate .hover function on navigation menu elements 
 
 ### Libraries
+•	[Font Awesome](https://fontawesome.com/) to provide the icon set for Re-Boot website
+
+•	[Google Fonts](https://fonts.google.com/) provided the fonts `Mukta` & `sans-serif` used throughout the project
+
+•	[jQuery](https://jquery.com/) is used to manipulate the DOM, for example buttons, and showing / hiding elements
+
+•	[Bootstrap](https://www.bootstrapcdn.com/) to enable ease of website responsiveness and simplify coding structure
 
 ### Tools
+•	[AWS Cloud9](https://aws.amazon.com/cloud9/) a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
+
+•	[Balsamiq](https://balsamiq.com/) is a small graphical tool to sketch out user interfaces, for websites and web / desktop / mobile applications and used to visualise my project through mock-up design.
+
+•	[Git](https://git-scm.com/) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+•	[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+•	[Jigsaw - CSS validation](https://jigsaw.w3.org/css-validator/) this validator checks the markup validity of CSS style sheet and ensure coding convention is upheld
+
+•	[JS Hint](https://jshint.com/) a tool that helps to detect errors and potential problems in the javascript code
+
+•	[W3C - HTML validation](https://validator.w3.org/) this validator checks the markup validity of HTML web documents
 
 ## Features
 
@@ -129,14 +187,49 @@ Dark Pink      | #D41E87
 ### Feature left to implement
 
 ## Tests
+User acceptance testing control document created in MS Excel. Key tests created to ensure
+the software performs consistently on different browser platforms. Any deviation from the intended
+design will be captured in the test matrix.
 
 ### Compatibility
+The following browsers were used in testing the resume application. Internet Explorer was out of scope for testing due to obsolete capability
+
+platform | version
+---------|--------
+Chrome   |80.0.3987.87
+Edge     |44.18362.449.0
+Firefox  |74.0.2
+Safari   |12.4.5
+Opera    |66.0.3515.72
 
 ### Test Observations
 
 ## Deployment
+This project was developed using the [AWS Cloud9](https://aws.amazon.com/cloud9/) IDE, committed to git and pushed to GitHub using the built in function within cloud9.
+
+To deploy resume to GitHub Pages from its [GitHub repository](https://github.com/Spagettileg/resume), the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select **Spagettileg / resume**
+3. From the menu items near the top of the page, select **Settings**
+4. Scroll down to the **GitHub Pages** section
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, resume is now deployed
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website
 
 ### How to run this project locally 
+To clone this project from GitHub:
+
+1. Follow this link to the [resume GitHub repository](https://github.com/Spagettileg/resume)
+2. Under the repository name, click **Clone or download**
+3. In the Clone with HTTPs section, **copy the clone URL** for the repository
+4. In your local IDE open a new terminal in Ubuntu Bash
+5. Change the current working directory to the location where you want the cloned directory to be made
+6. Type `git clone` plus paste the URL you copied in **Step 3**
+
+`git clone https://github.com/USERNAME/REPOSITORY`
+7. **Press Enter**. Your local clone will be created.
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits
 
@@ -164,55 +257,7 @@ Enable users, vendors, etc to contact me with new software project proposals or 
 Create links to communicate by email and social media.
 
 
-### Design
 
-HMTL, CSS and Bootstrap v3.3.7 were used to set a framework and the latter used for professional styling. Four pages were created (Home, Resume, Contact & DownloadCV) and all pages containing header, section and footer elements. A consistent 'look & feel'
-is set within the heart of the design.
-
-The user experience centres upon ease of navigation, clear narrative, clear description of my experience / capability and adopting a mobile 1st approach. 
-
-Social media links and the ability to access a PDF copy of my CV are included too. 
-
-##### Colour palette used:
-
-I enjoy the colours purple and green and wanted my resume to exist
-within a visual arrangement that leveraged these colours. A palette
-of x4 colours was created via https://mycolor.space/
-***  
-- 'Home' Menu > #765EC2 - Purple
-- 'Resume' Menu > #205E6B - Dark Green
-- 'Contact' Menu > #2794A9 - Teal
-- 'DownloadCV' Menu > #A7C2C9 - Medium Grey
-
-*** 
-- 'Heading' > #676767 Charcoal Grey
-- 'Footer' > #525252 Dark Grey 
-- Text > #fafafa = Off white
-
-#### UXD Considerations
-
-- Mobile 1st design applied to allow user quality experience when using Mobile/Tablet/Desktop
-- <meta name="viewport" allows for Mobile 1st design. Add to <head>
-- Bootstrap v3.3.7 & Clearfix used for styling saving valuable development time
-- Font Awesome / Bootstrap used to create graphical fonts and help increase user intuition
-- .hover class was supported by CDN JavaScript and improved the animation experience on all affected hover buttons
-- Created ability for user to view and download my CV
-- Visual work history setting out work deployment and chronology
-- Progress bar - new span class 'sr-only' (screen reader) to provide help for visually impaired user
-- Contact process made simple through requesting user name, email and project description information only
-- Bootstrap styled button created to allow user to send their project request
-
-#### Wireframes
-
-I intend to use Balsamiq to create my wireframes in the future.
-No wireframe was created for this project.
- 
-*** 
-
-### Features
-
-<Header> and <Footer> for all pages are the same and this is a deliberate
-design to provide a consistent 'look & feel' for the user.
 
 #### index.html
 
@@ -257,35 +302,6 @@ design to provide a consistent 'look & feel' for the user.
 - Add targte="_blank" to ensure the cv opens up in a different browsers
 - <Footer> links in all html pages to be updated for correct access to cv 
 
-***
-
-### Technologies Used
-
-- HTML 5 used to create the framework for the project
-
-- CSS3 used to create a style sheet and support aesthetic design 
- 
-- JavaScript > cdnjs.cloudflare.com used to animate .hover function on navigation menu elements   
-
-- Font Awesome - Use of social media fonts
-
-- Git used to support version control
-
-- GitHub used as a safe area for storing project files
-
- 
-***
-
-### Testing
-
-Placeholder for future testing.
-
-#### Test Matrix
-
-User acceptance testing control document created in MS Excel. Key tests created to ensure
-the software performs consistently on different browser platforms. Any deviation from the intended
-design will be captured in the test matrix.
-
 #### Compatability
 
 All major browser platforms were tested in Mobile, Tablet & Desktop configurations
@@ -296,26 +312,3 @@ All major browser platforms were tested in Mobile, Tablet & Desktop configuratio
 - Safari
 - Opera
 - Internet Explorer
-
-***
-
-### Deployment
-
-I've deployed the site using GitHub Pages, and is available here: https://github.com/Spagettileg/resume
-
-***
-
-### Credits
-
-#### Content
-All content was provided by the Code Institute
-
-#### Media
-All media was provided by the Code Institute
-
-***
-
-### Acknowledgements
-Thanks to Matt Rudge, Timmy O'Mahony & Brian O'Grady (all Code Institute) for their time, suggestions, and constructive feedback!
-
-Big thanks to my mentor Theo Despoudis on ongoing technical guidance.
