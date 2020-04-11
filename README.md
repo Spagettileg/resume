@@ -1,7 +1,5 @@
 # Resume | Paul Friel | Full Stack Developer 
 
-***
-
 [Direct link to GitHub](https://github.com/Spagettileg/resume)
 
 [Direct link to live resume](https://spagettileg.github.io/resume/)
@@ -60,6 +58,9 @@ committment to a career change from a Business Operations Management Consultant 
 - Content rich design saves prospective clients from repeated or unnecesary calls and emails   
 
 ### Wireframes
+My wireframe mock-up designs have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Re-Boot' website responsivenesson mobile, tablet and desktop devices.
+
+•	[Resume](https://github.com/Spagettileg/resume/blob/master/wireframes/resumefinal.zip)
 
 ### User Stories
 * To create a 'one stop shop' for all information to showcase a developers profile
