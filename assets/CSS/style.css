@@ -407,6 +407,12 @@ footer .cv-pdf i:hover {
     width: 100%;
     height: 100%;
     text-align: center;
+    -o-transition: transform 0.8s;
+    /*opera*/
+    -moz-transition: transform 0.8s;
+    /*windows*/
+    -webkit-transition: transform 0.8s;
+    /*Safari (apple)*/
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
