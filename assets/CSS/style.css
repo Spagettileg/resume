@@ -594,6 +594,14 @@ footer .cv-pdf i:hover {
 
 .fa-bolt:hover,
 .fa-github:hover {
+    -o-transform: scale(1.15);
+    /*opera*/
+    -ms-transform: scale(1.15);
+    /*IE*/
+    -moz-transform: scale(1.15);
+    /*windows*/
+    -webkit-transform: scale(1.15);
+    /*Safari (apple)*/
     transform: scale(1.15);
     opacity: 0.9;
 }
