@@ -430,8 +430,12 @@ footer .cv-pdf i:hover {
     position: absolute;
     width: 100%;
     height: 100%;
+    -o-backface-visibility: hidden;
+    /*opera*/
+    -moz-backface-visibility: hidden;
+    /*windows*/
     -webkit-backface-visibility: hidden;
-    /* Safari */
+    /*Safari (apple)*/
     backface-visibility: hidden;
 }
 
