@@ -454,6 +454,14 @@ footer .cv-pdf i:hover {
     color: white;
     padding-top: 2.1rem;
     text-align: center;
+    -o-transform: rotateY(180deg);
+    /*opera*/
+    -ms-transform: rotateY(180deg);
+    /*IE*/
+    -moz-transform: rotateY(180deg);
+    /*windows*/
+    -webkit-transform: rotateY(180deg);
+    /*Safari (apple)*/
     transform: rotateY(180deg);
 }
 
@@ -537,6 +545,14 @@ footer .cv-pdf i:hover {
     height: 100%;
     width: 100%;
     opacity: 0;
+    -o-transition: .5s ease;
+    /*opera*/
+    -ms-transition: .5s ease;
+    /*IE*/
+    -moz-transition: .5s ease;
+    /*windows*/
+    -webkit-transition: .5s ease;
+    /*Safari (apple)*/
     transition: .5s ease;
     background-color: #205e6b;
     /* Dark Green */
