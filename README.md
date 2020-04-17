@@ -218,6 +218,7 @@ Slack               | Collaboration Software
 
 - 'SR only' span class to be used to help visually impaired users 
 - My Portfolio includes all projects completed to date. The flip side of each card design allows the user to access both live project and repo code held in GitHub
+- Soft skills summary on leadership, team work, problem solving, critical thinking, creativity and time management captured with respective proficiency ratings
 - Footer provides a summary narrative on developer capability, link to download CV and social media links
 
 **Contact (contact.html)**
