@@ -669,6 +669,14 @@ div#map {
 
 /*------------Media Queries-------------*/
 
+@media (min-width: 375px) {
+    .dot {
+        /* Mobile view - Reduced dot size to allow text to fit in mobile view*/
+        height: 0.75rem;
+        width: 0.75rem; 
+    }
+}
+
 @media (min-width: 375px) and (orientation: landscape) {
     .skills {
         /* Mobile view in landscape mode */
