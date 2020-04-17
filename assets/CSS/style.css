@@ -389,6 +389,27 @@ footer .cv-pdf i:hover {
     font-size: 1.5rem;
 }
 
+tbody {
+    /* All soft skill data positioned to left side of the table */
+    text-align: left;
+}
+
+.soft-skill-header {
+    /* Table of soft skills appears on resume.html page */
+    background-color: #205e6b;
+    color: #fafafa;
+    font-size: 1.2rem;
+}
+
+.dot {
+  /* Dot is a scale of skills proficiency that appears on resume.html page */    
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: #205e6b;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 /*---------Skills Flip Cards-----------*/
 
 .flip-card {
