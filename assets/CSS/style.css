@@ -412,10 +412,9 @@ tbody {
 
 .empty-dot {
   /* Empty Dot is an opportunity to improve skills proficiency on resume.html page */    
-  height: 1.2rem;
-  width: 1.2rem;
-  background-color: #ffffff;
-  border-color: #205e6b;
+  height: 0.75rem;
+  width: 0.75rem;
+  border: 2px solid #205e6b;
   border-radius: 50%;
   display: inline-block;
 }
