@@ -9,7 +9,7 @@ function userInformationHTML(user) {
         <div class="gh-content"> 
             <div class="pt-2 pb-2 gh-avatar"> 
                 <a href="${user.html_url}" target="_blank">
-                    <img src="${user.avatar_url}" width="80" height="80" alt="${user.login}" />
+                    <img src="${user.avatar_url}" width="100" height="100" alt="${user.login}" />
                 </a>
             </div>
             <p>Followers: ${user.followers} - Following ${user.following} <br> Repos: ${user.public_repos}</p>
