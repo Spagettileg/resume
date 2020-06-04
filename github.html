@@ -59,12 +59,19 @@
     <!-- Personal Information -->
     <section class="pt-3 pb-3 container-fluid bg-color-contact text-center">
         <h3 class="contact-heading uppercase text-center">View My GitHub Projects:</h3>
-        <h5 class="uppercase text-center">(username can change to search for other user profiles)</h5>
+        <h6 class="uppercase text-center">(username can change to search for other user profiles)</h6>
+        <form>
             <div class="col-sm-12">
-                <input type="text" class="text-center" id="gh-username" value="spagettileg" oninput="fetchGitHubInformation()">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Repo Name</span>
+                    </div>  
+                    <input type="text" class="form-control text-center" id="gh-username" value="Spagettileg" oninput="fetchGitHubInformation()">
+                </div>
                 <div id="gh-user-data" class="clearfix"></div>
                 <div id="gh-repo-data" class="clearfix"></div>
             </div>
+        </form>
             <div class="pt-2">
             <p><small>Click above tag name to access <b>GitHub</b> Repository profile</small></p>
             </div>
