@@ -50,9 +50,7 @@ function fetchGitHubInformation(event) {
     
 
     $("#gh-user-data").html( /* if animated gif image cannot be displayed, then show "loading..." text */
-        `<div id="loader">
-            <img src="assets/CSS/Stopwatch.gif" alt="loading..." /> 
-        </div>`);
+        `<div class="lds-ellipsis" alt="loading..." /><div></div><div></div><div></div><div></div></div>`);
         
     $.when(
         $.getJSON(`https://api.github.com/users/${username}`),
