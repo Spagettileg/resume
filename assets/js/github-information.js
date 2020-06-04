@@ -26,12 +26,12 @@ function repoInformationHTML(repos) { // GitHub returns this object as an array.
             <a href="${repo.html_url}" target="_blank">${repo.name}</a>
             </div>`;
     });
-        return `<div class="container-fluid">
+        return `<div class="p-0 container-fluid">
                     <div class="clearfix repo-list">
                     <p>
                     <strong>Repo list:</strong><br><small>(repo's not shown can be accessed in <b>GitHub</b>)</small>   
                     </p>
-                    <div class="pl-1 repo-block" id="gh-repo-data">
+                    <div class="repo-block" id="gh-repo-data">
                         ${listItemsHTML.join("------")}
                     </div>
                     </div>
