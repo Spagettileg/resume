@@ -22,18 +22,18 @@ function repoInformationHTML(repos) { // GitHub returns this object as an array.
     }
     
     var listItemsHTML = repos.map(function(repo) {
-        return `<li>
+        return `<div>
             <a href="${repo.html_url}" target="_blank">${repo.name}</a>
-            </li>`;
+            </div>`;
     });
         return `<div class="container-fluid">
                     <div class="clearfix repo-list">
                     <p>
                     <strong>Repo list:</strong><br><small>(repo's not shown can be accessed in <b>GitHub</b>)</small>   
                     </p>
-                    <ul class="pl-1" id="gh-repo-data">
-                        ${listItemsHTML.join("*")}
-                    </ul>
+                    <div class="pl-1 repo-block" id="gh-repo-data">
+                        ${listItemsHTML.join("------")}
+                    </div>
                     </div>
                 </div>`;
 }
