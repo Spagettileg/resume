@@ -98,6 +98,7 @@ h4 {
 
 .repo-block a {
     color: #000;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
@@ -756,6 +757,9 @@ div#map {
     .project-text {
         font-size: 1rem;
     }
+    .repo-block a {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -781,6 +785,9 @@ div#map {
     .project-text {
         font-size: 2rem;
     }
+    .repo-block a {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -801,5 +808,8 @@ div#map {
     }
     .project-text {
         font-size: 0.95rem;
+    }
+    .repo-block a {
+        font-size: 0.9rem;
     }
 }
