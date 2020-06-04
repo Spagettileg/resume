@@ -85,6 +85,27 @@ h4 {
     /*Allows nice spacing of the content across the footer*/
 }
 
+.repo-block {
+    column-count: 3;
+    column-gap: 2rem;
+    column-rule: 1px solid #50394C;
+    background-color: #f4f4f4;
+    color: #50394C;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.repo-block a {
+    color: #000;
+    font-weight: 500;
+}
+
+.repo-block a:hover {
+    text-decoration: none;
+    color: #765ec2;
+}
+
 .row-table {
     display: table;
     /*Columns will remain of equal height, regardless of content*/
