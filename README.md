@@ -58,7 +58,7 @@ committment to a career change from a Business Operations Management Consultant 
 - Content rich design saves prospective clients from repeated or unnecesary calls and emails   
 
 ### Wireframes
-My wireframe mock-up designs have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Re-Boot' website responsivenesson mobile, tablet and desktop devices.
+My wireframe mock-up designs have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Resume' website responsivenesson mobile, tablet and desktop devices.
 
 •	[Resume](https://github.com/Spagettileg/resume/blob/master/wireframes/resumefinal.zip)
 
