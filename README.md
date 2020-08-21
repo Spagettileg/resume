@@ -197,6 +197,8 @@ CSS3                | Front End
 SASS                | Front End
 Materialize         | Front End
 Javascript          | Front & Back End
+React.js            | Front End
+Node.js             | Front & Back End
 jQuery              | Front End
 D3.js               | Front End
 DC.js               | Front End
@@ -214,6 +216,7 @@ Balsamiq            | Wireframe & Mock up's
 Jasmine             | Testing Javascript
 TravisCI            | Testing Software
 Stripe              | Payments Software
+Discord             | Collaboration Software
 Slack               | Collaboration Software
 
 - 'SR only' span class to be used to help visually impaired users 
