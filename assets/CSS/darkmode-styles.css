@@ -1,0 +1,36 @@
+/*------------------------------*/
+/*----- Dark Mode Defined ------*/
+/*------------------------------*/
+
+/*-------- Toggle --------------*/
+
+.toggle {
+    position: absolute;
+    cursor: pointer;
+    bottom: 375px;
+    left: 45px;
+    font-size: 150%;
+}
+
+.toggle:before {
+    content: '☀️ Day';
+    color: #fff;
+}
+
+.toggle.active:before {
+    content: '🌒 Night';
+    color: #fff;
+}
+
+
+
+
+
+
+/*----- Media Queries ----------*/ 
+
+@media (min-width: 1024px) {
+    .toggle {
+        bottom: 135px;
+    }
+}
