@@ -32,7 +32,6 @@ input[type="checkbox"]:checked ~ * {
 /*-------- Toggle Function ----------*/
 
 .switch {
-  margin: 0.1rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
@@ -46,7 +45,6 @@ input[type="checkbox"]:checked ~ * {
   text-align: center;
   font-size: 1rem;
   padding: 0.1875rem;
-  margin-left: 0.3125rem;
   color: #fff;
 }
 
@@ -88,4 +86,19 @@ input[type="checkbox"]:checked ~ * {
     color: #F2F2F2;
     font-weight: 500;
 }
+
+/*--------- Personal Information ---------*/ 
+
+.dark-home,
+.dark-home .bg-color-personal-info {
+    background-color: #333333;
+}
+
+.dark-home,
+.dark-home .section-heading,
+.dark-home .personal-info-item {
+    color: #F2F2F2;
+}
+
+/*--------- About Me --------*/
 
