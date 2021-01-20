@@ -16,10 +16,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
     <!-- Personal CSS -->
     <link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/CSS/dark/index.css" type="text/css" />
 
 </head>
 
 <body>
+    <!-- Note for alternative code snippet - <input type="checkbox" name=""> -->
+    
     <!-- Introduction and access to resume, contact, interests, GitHub Repo & personal cv -->
     <header class="container-fluid">
         <div class="row">
@@ -30,6 +33,9 @@
                     <div class="heading">
                         <h1 class="name">Paul Friel</h1>
                         <h2 class="title">Full Stack Developer</h2>
+                            <div class="switch">
+                                <span class="inner-switch">Dark</span>
+                            </div>
                     </div>
                 </div>
                     <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4">
@@ -161,7 +167,7 @@
     </section>
 
     <footer class="container-fluid">
-        <div id="footer-details" class="row">
+        <div class="row px-5 py-5">
             <div class="col-12 col-sm-6 col-lg-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block full-stack">
@@ -204,6 +210,34 @@
 
 <!-- Personal JS -->
     <script src="assets/js/main.js"></script>
+    
+<!-- Toggle function JS -->
+    <script>
+      $(".inner-switch").on("click", function () {
+        if ($("html").hasClass("dark-home")) {
+          $("html").removeClass("dark-home");
+          $(".inner-switch").text("Dark");
+        } else {
+          $("html").addClass("dark-home");
+          $(".inner-switch").text("Light");
+          // Get HTML head element
+          var head = document.getElementsByTagName("HEAD")[0];
+         
+          // Create new link Element
+          var link = document.createElement("link");
+
+          // set the attributes for link element
+          link.rel = "stylesheet";
+
+          link.type = "text/css";
+
+          link.href = "index.css";
+
+          // Append link element to HTML head
+          head.appendChild(link);
+        }
+      });
+    </script>
     
 </body>
 
