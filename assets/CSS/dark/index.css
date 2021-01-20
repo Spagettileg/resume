@@ -102,3 +102,13 @@ input[type="checkbox"]:checked ~ * {
 
 /*--------- About Me --------*/
 
+.dark-home,
+.dark-home .bg-color-three-reasons {
+    background-color: #333333;
+}
+
+.dark-home,
+.dark-home .three-reasons-heading,
+.dark-home .certified {
+    color: #F2F2F2;
+}
