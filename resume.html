@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
     <!-- Personal CSS -->
     <link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/CSS/dark/resume.css" type="text/css" />
 
 </head>
 
@@ -30,6 +31,9 @@
                     <div class="heading">
                         <h1 class="name">Paul Friel</h1>
                         <h2 class="title">Full Stack Developer</h2>
+                          <div class="switch pb-4">
+                                  <span class="inner-switch">Dark</span>
+                              </div>
                     </div>
                 </div>
                     <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4">
@@ -782,6 +786,34 @@
 
 <!-- Personal JS -->
     <script src="assets/js/main.js"></script>
+    
+<!-- Toggle function JS -->
+    <script>
+      $(".inner-switch").on("click", function () {
+        if ($("html").hasClass("dark-resume")) {
+          $("html").removeClass("dark-resume");
+          $(".inner-switch").text("Dark");
+        } else {
+          $("html").addClass("dark-resume");
+          $(".inner-switch").text("Light");
+          // Get HTML head element
+          var head = document.getElementsByTagName("HEAD")[0];
+         
+          // Create new link Element
+          var link = document.createElement("link");
+
+          // set the attributes for link element
+          link.rel = "stylesheet";
+
+          link.type = "text/css";
+
+          link.href = "resume.css";
+
+          // Append link element to HTML head
+          head.appendChild(link);
+        }
+      });
+    </script>
     
 </body>
 
