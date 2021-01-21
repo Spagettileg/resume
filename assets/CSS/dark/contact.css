@@ -1,0 +1,22 @@
+/*-------- Toggle Function ----------*/
+
+.switch {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 3px solid #CCC;
+  border-radius: 0.5rem;
+  width: 5rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  color: #fff;
+}
+
+.dark-contact .inner-switch {
+    border: 3px solid #BB86FC;
+}
