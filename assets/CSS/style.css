@@ -305,7 +305,7 @@ footer .cv-pdf i:hover {
     padding: 0.75rem 0;
     border-radius: 50%;
     /*Enables creation of circle where width & height of same value*/
-    font-size: 0.8125rem;
+    font-size: 1rem;
     /*Enables icon to sit within border*/
     line-height: 0.4375rem;
     text-align: center;

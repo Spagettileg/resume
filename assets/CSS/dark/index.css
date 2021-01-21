@@ -54,14 +54,13 @@ input[type="checkbox"]:checked ~ * {
 
 /*--------- Name, Title & Background---------*/ 
 
-.dark-home,
 .dark-home .bg-color-name-title {
+    background-color: #333333;
     background-image: linear-gradient(to right, #333333, #4d4d4d, #666666, #808080, #999999, #b3b3b3);
 }
 
 /*--------- Navigation Menu ---------*/
 
-.dark-home,
 .dark-home .ul-menu-color-Home,
 .dark-home .ul-menu-color-Resume,
 .dark-home .ul-menu-color-Contact,
@@ -71,7 +70,19 @@ input[type="checkbox"]:checked ~ * {
     background-color: #333333;
 }
 
-.dark-home,
+.dark-home .ul-menu-color-Home,
+.dark-home .ul-menu-color-Resume,
+.dark-home .ul-menu-color-Contact,
+.dark-home .ul-menu-color-Interests,
+.dark-home .ul-menu-color-GitHub {
+    border-right: 2px solid #4d4d4d;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-home .ul-menu-color-DownloadCV {
+    border-bottom: 2px solid #4d4d4d;
+}
+
 .dark-home .fa-home,
 .dark-home .fa-graduation-cap,
 .dark-home .fa-comment,
@@ -81,7 +92,6 @@ input[type="checkbox"]:checked ~ * {
     color: #BB86FC;
 }
 
-.dark-home,
 .dark-home .menuitem span {
     color: #F2F2F2;
     font-weight: 500;
@@ -89,12 +99,11 @@ input[type="checkbox"]:checked ~ * {
 
 /*--------- Personal Information ---------*/ 
 
-.dark-home,
 .dark-home .bg-color-personal-info {
     background-color: #333333;
+    border-bottom: 2px solid #4d4d4d;
 }
 
-.dark-home,
 .dark-home .section-heading,
 .dark-home .personal-info-item {
     color: #F2F2F2;
@@ -102,13 +111,44 @@ input[type="checkbox"]:checked ~ * {
 
 /*--------- About Me --------*/
 
-.dark-home,
 .dark-home .bg-color-three-reasons {
     background-color: #333333;
+    border-bottom: 2px solid #4d4d4d;
 }
 
-.dark-home,
 .dark-home .three-reasons-heading,
-.dark-home .certified {
+.dark-home .certified,
+.dark-home .dark-how,
+.dark-home .dark-why {
     color: #F2F2F2;
+}
+
+.dark-home .fa-question,
+.dark-home .fa-thumbs-up,
+.dark-home .fa-eye,
+.dark-home .certified a {
+    color: #BB86FC;
+}
+
+/*-------- Footer ---------*/
+
+.dark-home footer {
+    background-color: #333333;
+    color: #F2F2F2;
+}
+
+.dark-home footer .cv-pdf i:hover {
+    color: #BB86FC;
+}
+
+.dark-home .full-stack a:hover {
+    color: #BB86FC;
+}
+
+/*----- Social Media -----*/
+
+.dark-home .social-links li a i {
+    background: #BB86FC;
+    color: #333333;
+    font-size: 1rem;
 }
