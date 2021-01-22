@@ -94,7 +94,8 @@
 
 .dark-resume .fa-tv,
 .dark-resume .fa-cogs,
-.dark-resume .fa-database {
+.dark-resume .fa-database,
+.dark-resume .section-heading a {
     color: #BB86FC;
 }
 
@@ -112,7 +113,9 @@
 }
 
 .dark-resume .soft-skill-header,
-.dark-resume .table td {
+.dark-resume .table,
+.dark-resume .dark-attribute,
+.dark-resume h5, .projects {
     color: #F2F2F2;
 }
 
@@ -124,11 +127,31 @@
     border: 2px solid #BB86FC;
 }
 
+/*------- Projects --------*/
+
+.dark-resume .overlay {
+    background-color: #333333;
+    border: 3px solid #4d4d4d;
+}
+
+.dark-resume .project-text {
+    color: #F2F2F2;
+}
+
+.dark-resume .fa-bolt {
+    color: #BB86FC;
+}
+
+.dark-resume .dark-portfolio {
+    border-top: 2px solid #4d4d4d;
+}
+
 /*-------- Footer ---------*/
 
 .dark-resume footer {
     background-color: #333333;
     color: #F2F2F2;
+    border-top: 2px solid #4d4d4d;
 }
 
 .dark-resume footer .cv-pdf i:hover {
