@@ -33,8 +33,8 @@
                     <div class="heading">
                         <h1 class="name">Paul Friel</h1>
                         <h2 class="title">Full Stack Developer</h2>
-                            <div class="switch pb-4">
-                                <span class="inner-switch">Dark</span>
+                            <div class="toggle pb-4">
+                                <span class="active-toggle">Dark</span>
                             </div>
                     </div>
                 </div>
@@ -213,13 +213,13 @@
     
 <!-- Toggle function JS -->
     <script>
-      $(".inner-switch").on("click", function () {
+      $(".active-toggle").on("click", function () {
         if ($("html").hasClass("dark-home")) {
           $("html").removeClass("dark-home");
-          $(".inner-switch").text("Dark");
+          $(".active-toggle").text("Dark");
         } else {
           $("html").addClass("dark-home");
-          $(".inner-switch").text("Light");
+          $(".active-toggle").text("Light");
           // Get HTML head element
           var head = document.getElementsByTagName("HEAD")[0];
          

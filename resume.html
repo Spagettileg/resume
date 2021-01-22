@@ -31,8 +31,8 @@
                     <div class="heading">
                         <h1 class="name">Paul Friel</h1>
                         <h2 class="title">Full Stack Developer</h2>
-                          <div class="switch pb-4">
-                                  <span class="inner-switch">Dark</span>
+                          <div class="toggle pb-4">
+                                  <span class="active-toggle">Dark</span>
                               </div>
                     </div>
                 </div>
@@ -789,13 +789,13 @@
     
 <!-- Toggle function JS -->
     <script>
-      $(".inner-switch").on("click", function () {
-        if ($("html").hasClass("dark-resume")) {
-          $("html").removeClass("dark-resume");
-          $(".inner-switch").text("Dark");
+      $(".active-toggle").on("click", function () {
+        if ($("html").hasClass("dark-home")) {
+          $("html").removeClass("dark-home");
+          $(".active-toggle").text("Dark");
         } else {
-          $("html").addClass("dark-resume");
-          $(".inner-switch").text("Light");
+          $("html").addClass("dark-home");
+          $(".active-toggle").text("Light");
           // Get HTML head element
           var head = document.getElementsByTagName("HEAD")[0];
          
@@ -807,7 +807,7 @@
 
           link.type = "text/css";
 
-          link.href = "resume.css";
+          link.href = "index.css";
 
           // Append link element to HTML head
           head.appendChild(link);
