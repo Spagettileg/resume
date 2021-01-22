@@ -76,10 +76,31 @@
   color: #F2F2F2;
 }
 
+.dark-resume .timeline-item::after {
+  background: #BB86FC;
+}
 
+/*------ My Skills ------*/
 
+.dark-resume .bg-color-three-reasons {
+    background-color: #333333;
+}
 
+.dark-resume .section-heading,
+.dark-resume .uppercase,
+.dark-resume .dark-skill {
+    color: #F2F2F2;
+}
 
+.dark-resume .fa-tv,
+.dark-resume .fa-cogs,
+.dark-resume .fa-database {
+    color: #BB86FC;
+}
+
+.dark-resume .flip-card-front {
+    background: #333333;
+}
 
 
 
