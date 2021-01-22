@@ -104,10 +104,25 @@
 
 .dark-resume .flip-card-back {
     background: #BB86FC;
+    color: #333333;
+}
+
+.dark-resume .soft-skill-header {
+    background: #333333;
+}
+
+.dark-resume .soft-skill-header,
+.dark-resume .table td {
     color: #F2F2F2;
 }
 
+.dark-resume .dot {
+    background-color: #BB86FC;
+}
 
+.dark-resume .empty-dot {
+    border: 2px solid #BB86FC;
+}
 
 /*-------- Footer ---------*/
 
