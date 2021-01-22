@@ -466,7 +466,6 @@ tbody {
     background-color: transparent;
     width: 125px;
     height: 125px;
-    border: 1px solid #ddd;
     perspective: 1000px;
     /* Remove this if you don't want the 3D effect */
 }
