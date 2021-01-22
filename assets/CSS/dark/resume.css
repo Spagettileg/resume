@@ -21,3 +21,82 @@
     border: 3px solid #BB86FC;
 }
 
+/*--------- Name, Title & Background---------*/ 
+
+.dark-resume .bg-color-name-title {
+    background-color: #333333;
+    background-image: linear-gradient(to right, #333333, #4d4d4d, #666666, #808080, #999999, #b3b3b3);
+}
+
+/*--------- Navigation Menu ---------*/
+
+.dark-resume .ul-menu-color-Home,
+.dark-resume .ul-menu-color-Resume,
+.dark-resume .ul-menu-color-Contact,
+.dark-resume .ul-menu-color-Interests,
+.dark-resume .ul-menu-color-GitHub,
+.dark-resume .ul-menu-color-DownloadCV {
+    background-color: #333333;
+}
+
+.dark-resume .ul-menu-color-Home,
+.dark-resume .ul-menu-color-Resume,
+.dark-resume .ul-menu-color-Contact,
+.dark-resume .ul-menu-color-Interests,
+.dark-resume .ul-menu-color-GitHub {
+    border-right: 2px solid #4d4d4d;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-resume .ul-menu-color-DownloadCV {
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-resume .fa-home,
+.dark-resume .fa-graduation-cap,
+.dark-resume .fa-comment,
+.dark-resume .fa-cog,
+.dark-resume .fa-github,
+.dark-resume .fa-download {
+    color: #BB86FC;
+}
+
+.dark-resume .menuitem span {
+    color: #F2F2F2;
+    font-weight: 500;
+}
+
+/*------ Work History ------*/
+
+
+
+
+
+
+
+
+
+
+
+/*-------- Footer ---------*/
+
+.dark-resume footer {
+    background-color: #333333;
+    color: #F2F2F2;
+}
+
+.dark-resume footer .cv-pdf i:hover {
+    color: #BB86FC;
+}
+
+.dark-resume .full-stack a:hover {
+    color: #BB86FC;
+}
+
+/*----- Social Media -----*/
+
+.dark-resume .social-links li a i {
+    background: #BB86FC;
+    color: #333333;
+    font-size: 1rem;
+}
