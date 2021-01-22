@@ -102,7 +102,10 @@
     background: #333333;
 }
 
-
+.dark-resume .flip-card-back {
+    background: #BB86FC;
+    color: #F2F2F2;
+}
 
 
 
