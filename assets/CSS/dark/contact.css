@@ -18,10 +18,109 @@
   color: #F2F2F2;
 }
 
-.dark-resume .active-toggle {
+.dark-contact .active-toggle {
     border: 3px solid #BB86FC;
     color: #fff;
     background: none; 
 }
 
+/*--------- Name, Title & Background---------*/ 
 
+.dark-contact .bg-color-name-title {
+    background-color: #333333;
+    background-image: linear-gradient(to right, #333333, #4d4d4d, #666666, #808080, #999999, #b3b3b3);
+}
+
+/*--------- Navigation Menu ---------*/
+
+.dark-contact .ul-menu-color-Home,
+.dark-contact .ul-menu-color-Resume,
+.dark-contact .ul-menu-color-Contact,
+.dark-contact .ul-menu-color-Interests,
+.dark-contact .ul-menu-color-GitHub,
+.dark-contact .ul-menu-color-DownloadCV {
+    background-color: #333333;
+}
+
+.dark-contact .ul-menu-color-Home,
+.dark-contact .ul-menu-color-Resume,
+.dark-contact .ul-menu-color-Contact,
+.dark-contact .ul-menu-color-Interests,
+.dark-contact .ul-menu-color-GitHub {
+    border-right: 2px solid #4d4d4d;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-contact .ul-menu-color-DownloadCV {
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-contact .fa-home,
+.dark-contact .fa-graduation-cap,
+.dark-contact .fa-comment,
+.dark-contact .fa-cog,
+.dark-contact .fa-github,
+.dark-contact .fa-download {
+    color: #BB86FC;
+}
+
+.dark-contact .menuitem span {
+    color: #F2F2F2;
+    font-weight: 500;
+}
+
+/*------ Contact Form ------*/
+
+.dark-contact .bg-color-contact {
+    background-color: #333333;
+}
+
+.dark-contact .contact-heading,
+.dark-contact .uppercase,
+.dark-contact ::placeholder {
+  color: #F2F2F2;
+}
+
+.dark-contact .form-control {
+  background-color: #333333;
+  color: #F2F2F2;
+  border:1px solid #BB86FC;
+}
+
+.dark-contact button[type="submit"] {
+  background-color: #333333;
+  color: #BB86FC;
+  border:2px solid #BB86FC;
+  font-weight: 500;
+}
+
+.dark-contact button[type="submit"]:hover {
+  background-color: #BB86FC;
+  color: #333333;
+  border:2px solid #BB86FC;
+  font-weight: 500;
+}
+
+/*-------- Footer ---------*/
+
+.dark-contact footer {
+    background-color: #333333;
+    color: #F2F2F2;
+    border-top: 2px solid #4d4d4d;
+}
+
+.dark-contact footer .cv-pdf i:hover {
+    color: #BB86FC;
+}
+
+.dark-contact .full-stack a:hover {
+    color: #BB86FC;
+}
+
+/*----- Social Media -----*/
+
+.dark-contact .social-links li a i {
+    background: #BB86FC;
+    color: #333333;
+    font-size: 1rem;
+}
