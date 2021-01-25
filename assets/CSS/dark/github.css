@@ -1,22 +1,76 @@
 /*-------- Toggle Function ----------*/
 
-.switch {
+.toggle {
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
 
-.inner-switch {
+.active-toggle {
   display: inline-block;
   cursor: pointer;
-  border: 3px solid #CCC;
+  border: 3px solid #333333;
   border-radius: 0.5rem;
   width: 5rem;
   text-align: center;
   font-size: 1rem;
   padding: 0.1875rem;
-  color: #fff;
+  background: #333333;
+  color: #F2F2F2;
 }
 
-.dark-github .inner-switch {
+.dark-github .active-toggle {
     border: 3px solid #BB86FC;
+    color: #fff;
+    background: none; 
+}
+
+/*--------- Name, Title & Background---------*/ 
+
+.dark-github .bg-color-name-title {
+    background-color: #333333;
+    background-image: linear-gradient(to right, #333333, #4d4d4d, #666666, #808080, #999999, #b3b3b3);
+}
+
+/*--------- Navigation Menu ---------*/
+
+.dark-github .ul-menu-color-Home,
+.dark-github .ul-menu-color-Resume,
+.dark-github .ul-menu-color-Contact,
+.dark-github .ul-menu-color-Interests,
+.dark-github .ul-menu-color-GitHub,
+.dark-github .ul-menu-color-DownloadCV {
+    background-color: #333333;
+}
+
+.dark-github .ul-menu-color-Home,
+.dark-github .ul-menu-color-Resume,
+.dark-github .ul-menu-color-Contact,
+.dark-github .ul-menu-color-Interests,
+.dark-github .ul-menu-color-GitHub {
+    border-right: 2px solid #4d4d4d;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-github .ul-menu-color-DownloadCV {
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-github .fa-home,
+.dark-github .fa-graduation-cap,
+.dark-github .fa-comment,
+.dark-github .fa-cog,
+.dark-github .fa-github,
+.dark-github .fa-download {
+    color: #BB86FC;
+}
+
+.dark-github .menuitem span {
+    color: #F2F2F2;
+    font-weight: 500;
+}
+
+/*------ GitHub Projects Summary -----*/
+
+.dark-github .bg-color-contact {
+  background-color: #333333;
 }
