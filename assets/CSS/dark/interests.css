@@ -1,22 +1,120 @@
 /*-------- Toggle Function ----------*/
 
-.switch {
+.toggle {
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
 
-.inner-switch {
+.active-toggle {
   display: inline-block;
   cursor: pointer;
-  border: 3px solid #CCC;
+  border: 3px solid #333333;
   border-radius: 0.5rem;
   width: 5rem;
   text-align: center;
   font-size: 1rem;
   padding: 0.1875rem;
-  color: #fff;
+  background: #333333;
+  color: #F2F2F2;
 }
 
-.dark-interests .inner-switch {
+.dark-interests .active-toggle {
     border: 3px solid #BB86FC;
+    color: #fff;
+    background: none; 
+}
+
+/*--------- Name, Title & Background---------*/ 
+
+.dark-interests .bg-color-name-title {
+    background-color: #333333;
+    background-image: linear-gradient(to right, #333333, #4d4d4d, #666666, #808080, #999999, #b3b3b3);
+}
+
+/*--------- Navigation Menu ---------*/
+
+.dark-interests .ul-menu-color-Home,
+.dark-interests .ul-menu-color-Resume,
+.dark-interests .ul-menu-color-Contact,
+.dark-interests .ul-menu-color-Interests,
+.dark-interests .ul-menu-color-GitHub,
+.dark-interests .ul-menu-color-DownloadCV {
+    background-color: #333333;
+}
+
+.dark-interests .ul-menu-color-Home,
+.dark-interests .ul-menu-color-Resume,
+.dark-interests .ul-menu-color-Contact,
+.dark-interests .ul-menu-color-Interests,
+.dark-interests .ul-menu-color-GitHub {
+    border-right: 2px solid #4d4d4d;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-interests .ul-menu-color-DownloadCV {
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-interests .fa-home,
+.dark-interests .fa-graduation-cap,
+.dark-interests .fa-comment,
+.dark-interests .fa-cog,
+.dark-interests .fa-github,
+.dark-interests .fa-download {
+    color: #BB86FC;
+}
+
+.dark-interests .menuitem span {
+    color: #F2F2F2;
+    font-weight: 500;
+}
+
+/*----- Conferences & Meetings ------*/
+
+.dark-interests .bg-color-conferences {
+  background-color: #333333;
+}
+
+.dark-interests .section-heading {
+  color: #F2F2F2;
+}
+
+/*------ Groups & Societies ------*/
+
+.dark-interests .bg-color-groups {
+  background-color: #333333;
+}
+
+.dark-interests .fa-users,
+.dark-interests .dark-society a {
+    color: #BB86FC;
+}
+
+.dark-interests .three-reasons-heading,
+.dark-interests .dark-society {
+  color: #F2F2F2;
+}
+
+/*-------- Footer ---------*/
+
+.dark-interests footer {
+    background-color: #333333;
+    color: #F2F2F2;
+    border-top: 2px solid #4d4d4d;
+}
+
+.dark-interests footer .cv-pdf i:hover {
+    color: #BB86FC;
+}
+
+.dark-interests .full-stack a:hover {
+    color: #BB86FC;
+}
+
+/*----- Social Media -----*/
+
+.dark-interests .social-links li a i {
+    background: #BB86FC;
+    color: #333333;
+    font-size: 1rem;
 }
