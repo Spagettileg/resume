@@ -1,22 +1,27 @@
 /*-------- Toggle Function ----------*/
 
-.switch {
+.toggle {
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
 
-.inner-switch {
+.active-toggle {
   display: inline-block;
   cursor: pointer;
-  border: 3px solid #CCC;
+  border: 3px solid #333333;
   border-radius: 0.5rem;
   width: 5rem;
   text-align: center;
   font-size: 1rem;
   padding: 0.1875rem;
-  color: #fff;
+  background: #333333;
+  color: #F2F2F2;
 }
 
-.dark-contact .inner-switch {
+.dark-resume .active-toggle {
     border: 3px solid #BB86FC;
+    color: #fff;
+    background: none; 
 }
+
+
