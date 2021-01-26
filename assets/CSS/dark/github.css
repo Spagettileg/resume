@@ -115,6 +115,21 @@
     font-weight: 600;
 }
 
+.dark-github .repo-block {
+    column-rule: 1px solid #F2F2F2;
+    background-color: #333333;
+    border: 2px solid #4d4d4d;
+    color: #F2F2F2;
+}
+
+.dark-github .repo-block a {
+    color: #F2F2F2;
+}
+
+.dark-github .repo-block a:hover {
+    color: #BB86FC;
+}
+
 /*-------- Footer ---------*/
 
 .dark-github footer {
