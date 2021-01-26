@@ -74,3 +74,67 @@
 .dark-github .bg-color-contact {
   background-color: #333333;
 }
+
+.dark-github .contact-heading,
+.dark-github .uppercase,
+.dark-github .input-group input[type=text],
+.dark-github .gh-content,
+.dark-github .dark-tag,
+.dark-github .dark-user #text {
+    color: #F2F2F2;
+}
+
+.dark-github .input-group {
+    border: 1px solid #BB86FC;
+}
+
+.dark-github .input-group-text {
+    background-color: #BB86FC;
+    border-color: #BB86FC;
+    color: #333333;
+    font-weight: 500;
+}
+
+.dark-github .form-control {
+  background-color: #333333;
+  color: #F2F2F2;
+}
+
+.dark-github .gh-avatar a img {
+    border: 2px solid #4d4d4d;
+    box-shadow: none;
+}
+
+.dark-github .small-name,
+.dark-github .small-name a {
+    color: #BB86FC;
+}
+
+.dark-github .small-name a:hover {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*-------- Footer ---------*/
+
+.dark-github footer {
+    background-color: #333333;
+    color: #F2F2F2;
+    border-top: 2px solid #4d4d4d;
+}
+
+.dark-github footer .cv-pdf i:hover {
+    color: #BB86FC;
+}
+
+.dark-github .full-stack a:hover {
+    color: #BB86FC;
+}
+
+/*----- Social Media -----*/
+
+.dark-github .social-links li a i {
+    background: #BB86FC;
+    color: #333333;
+    font-size: 1rem;
+}
