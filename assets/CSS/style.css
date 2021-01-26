@@ -130,6 +130,22 @@ h4 {
     color: #FFF;
 }
 
+.light-tag {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.light-user {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.small-name,
+.small-name a {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 .row-table {
     display: table;
     /*Columns will remain of equal height, regardless of content*/
