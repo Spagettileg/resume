@@ -1,6 +1,6 @@
 function userInformationHTML(user) {
     return `
-        <h2 class="pt-2">${user.name} 
+        <h2 class="pt-2 dark-user">${user.name} 
             <span class="small-name">
                 (@<a href="${user.html_url}" target="_blank">${user.login}</a>) 
             </span>
@@ -28,7 +28,7 @@ function repoInformationHTML(repos) { // GitHub returns this object as an array.
     });
         return `<div class="p-0 container-fluid">
                     <div class="clearfix repo-list">
-                    <p>
+                    <p class="dark-tag">
                     <strong>Repo list:</strong><br><small>(repo's not shown can be accessed in <b>GitHub</b>)</small>   
                     </p>
                     <div class="repo-block" id="gh-repo-data">
