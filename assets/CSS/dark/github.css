@@ -80,7 +80,7 @@
 .dark-github .input-group input[type=text],
 .dark-github .gh-content,
 .dark-github .dark-tag,
-.dark-github .dark-user #text {
+.dark-github .dark-user {
     color: #F2F2F2;
 }
 
