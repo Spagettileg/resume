@@ -1,10 +1,12 @@
 function userInformationHTML(user) {
     return `
-        <h2 class="pt-2 dark-user">${user.name} 
+        <span class="pt-2 light-user dark-user">
+        ${user.name} 
+        </span>
             <span class="small-name">
                 (@<a href="${user.html_url}" target="_blank">${user.login}</a>) 
             </span>
-        </h2>
+        
         
         <div class="gh-content"> 
             <div class="pt-2 pb-2 gh-avatar"> 
@@ -13,7 +15,7 @@ function userInformationHTML(user) {
                 </a>
             </div>
             <p>Followers: ${user.followers} - Following ${user.following} <br> Repos: ${user.public_repos}</p>
-        </div>`; /* Count of people following our user, # being followed & # of public repositories */
+        </div>`; // Count of people following our user, # being followed & # of public repositories 
 }
 
 function repoInformationHTML(repos) { // GitHub returns this object as an array. 
@@ -28,8 +30,11 @@ function repoInformationHTML(repos) { // GitHub returns this object as an array.
     });
         return `<div class="p-0 container-fluid">
                     <div class="clearfix repo-list">
+                    <p class="light-tag dark-tag">
+                        Repo list:   
+                    </p>
                     <p class="dark-tag">
-                    <strong>Repo list:</strong><br><small>(repo's not shown can be accessed in <b>GitHub</b>)</small>   
+                        <small>(repo's not shown can be accessed in <b>GitHub</b>)</small>
                     </p>
                     <div class="repo-block" id="gh-repo-data">
                         ${listItemsHTML.join("------")}
