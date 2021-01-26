@@ -72,6 +72,7 @@ My wireframe mock-up designs have been created in [Balsamiq](https://balsamiq.co
 * To understand any conferences / meets ups attended and groups / professional societies the developer belongs too 
 * Access to the developers GitHub Repository to understand projects worked on with demonstrable evidence of languages used
 * User to download the developers latest cv in pdf format
+* Dark mode capability will help power saving and user accessibiity
 
 ### CSS Framework
 Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices.
@@ -94,6 +95,20 @@ Teal            | #2794A9
 Purple          | #765EC2
 Dark Purple     | #50394C
 Cappucino Brown | #A96E5B
+
+- Dark Mode
+
+Colour         | Hex Code
+---------------|----------
+Black 20% Hue  | #333333
+Black 30% Hue  | #4D4D4D
+Black 40% Hue  | #666666
+Black 50% Hue  | #808080
+Black 60% Hue  | #999999
+Black 70% Hue  | #B3B3B3
+Light Grey     | #878F99
+Light Purple   | #525252
+
 
 ### Typography
 [Roboto](https://fonts.google.com/) & [Exo](https://fonts.google.com/) fonts were used throughout this project.
@@ -170,6 +185,7 @@ For tablet and desktop views, the navbar offers 6 functions on a horizontal view
 - Add profile image, split header on 1/3 - 2/3 ratio
 - Logo picture added with anchor to take user to home page 
 - Include resume owner name and title
+- Dark mode button, when clicked will take user to dark mode function
 - Add menu > Home, Resume, Contact and DownloadCV options with page links
 - Add .hover effect to navigation menu items
 - Add <Footer> to display copyright data and social media links
@@ -182,6 +198,7 @@ For tablet and desktop views, the navbar offers 6 functions on a horizontal view
 
 **Resume (resume.html)**
 - Copy <header> and <footer> from the index.html page
+- Dark mode button, when clicked will take user to dark mode function
 - Create a work history timeline and a skill set summary
 - Create a <section> class thats positioned in middle of page setting out 3 tier architecture that forms backbone of developers skillset
 - <section> class follows a 1/3 - 2/3 ratio design 
@@ -197,8 +214,6 @@ CSS3                | Front End
 SASS                | Front End
 Materialize         | Front End
 Javascript          | Front & Back End
-React.js            | Front End
-Node.js             | Front & Back End
 jQuery              | Front End
 D3.js               | Front End
 DC.js               | Front End
@@ -216,7 +231,6 @@ Balsamiq            | Wireframe & Mock up's
 Jasmine             | Testing Javascript
 TravisCI            | Testing Software
 Stripe              | Payments Software
-Discord             | Collaboration Software
 Slack               | Collaboration Software
 
 - 'SR only' span class to be used to help visually impaired users 
@@ -226,6 +240,7 @@ Slack               | Collaboration Software
 
 **Contact (contact.html)**
 - Copy <header> and <footer> from the index.html page
+- Dark mode button, when clicked will take user to dark mode function
 - Create a <section> class thats positioned in middle of page
 - Add a <Form> class with preset snippet to include following:
 - User name / Email / Project Description
@@ -235,9 +250,11 @@ Slack               | Collaboration Software
 **Interests (interests.html)**
 - (1/3 page) Google Maps API used to support dropping pins in locations where the developer has attended conferences and meet up's
 - (2/3 page) Container for 'My Groups & Societies' that includes 4 notable items of interest to the developer
+- Dark mode button, when clicked will take user to dark mode function
 - Footer provides a summary narrative on developer capability, link to download CV and social media links
 
 **GitHub (github.html)**
+- Dark mode button, when clicked will take user to dark mode function
 - Link to GitHub created to allow user to view on Repo data or use an input box to search for other developer repo'social 
 - A list of repo's will apeear for the user to view and clickto select
 - Footer provides a summary narrative on developer capability, link to download CV and social media links
