@@ -58,8 +58,8 @@ function fetchGitHubInformation(event) {
         `<div class="lds-ellipsis" alt="loading..." /><div></div><div></div><div></div><div></div></div>`);
         
     $.when(
-        $.getJSON(`https://cors-anywhere.herokuapp.com/https://api.github.com/users/${username}`),
-        $.getJSON(`https://cors-anywhere.herokuapp.com/https://api.github.com/users/${username}/repos`)
+        $.getJSON(`https://api.github.com/users/${username}`),
+        $.getJSON(`https://api.github.com/users/${username}/repos`)
     ).then(
         function(firstResponse, secondResponse) {
             var userData = firstResponse[0];
