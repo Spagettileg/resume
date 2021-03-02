@@ -95,7 +95,8 @@
 .dark-resume .fa-tv,
 .dark-resume .fa-cogs,
 .dark-resume .fa-database,
-.dark-resume .section-heading a {
+.dark-resume .section-heading a,
+.dark-resume .tech-skill {
     color: #BB86FC;
 }
 
@@ -104,8 +105,8 @@
 }
 
 .dark-resume .flip-card-back {
-    background: #BB86FC;
-    color: #333333;
+    background: #333333;
+    color: #F2F2F2;
 }
 
 .dark-resume .soft-skill-header {
