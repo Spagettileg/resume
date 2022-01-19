@@ -12,7 +12,8 @@ function initMap() {
         { lat: 51.511924, lng: -0.080823 }, // Fenchurch St, London
         { lat: 51.536471, lng: -0.346118 }, // Greenford, UK
         { lat: 50.880939, lng: -1.24068 }, // Whiteley, Hants
-        { lat: 51.2111975, lng: -1.4919233 }  // Andover, Hants 
+        { lat: 51.2111975, lng: -1.4919233 },  // Andover, Hants 
+        { lat: 51.0748, lng: -1.08785 } // Ropley, Hants
     ];
 
     var markers = locations.map(function(location, i) { // locations.map() is a JS function and not Google. Similar to a forEach() function
